@@ -37,9 +37,10 @@ public class ModlistCheckProcessor {
             PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(outputLog)));
 
             List<ModEntry> entries = GSON.fromJson(reader, new TypeToken<List<ModEntry>>(){}.getType());
-            writer.println("# Pack Companion Debug Report");
-
-            writer.printf("Generated on: %s%n",timeStamp);
+            writer.println("# Pack Companion Report");
+            writer.println("");
+            writer.printf("### Generated on: %s%n",timeStamp);
+            writer.println("");
             if(entries == null || entries.isEmpty()) {
                 PackCompanion.LOGGER.info("There are no Mods in the modListGuide");
             }

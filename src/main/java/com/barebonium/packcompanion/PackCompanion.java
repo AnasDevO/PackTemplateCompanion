@@ -1,6 +1,8 @@
 package com.barebonium.packcompanion;
 
+import com.barebonium.packcompanion.utils.ConfigInitialiser;
 import com.barebonium.packcompanion.utils.ModlistCheckProcessor;
+import com.barebonium.packcompanion.version.VersionChecker;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
@@ -19,6 +21,7 @@ import java.io.File;
 public class PackCompanion {
 
     public static final Logger LOGGER = LogManager.getLogger(Tags.MOD_NAME);
+    public static File configDir;
 
     /**
      * <a href="https://cleanroommc.com/wiki/forge-mod-development/event#overview">
@@ -27,13 +30,17 @@ public class PackCompanion {
      */
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        File configDir = event.getModConfigurationDirectory();
+        File baseConfig = event.getModConfigurationDirectory();
         File gameDir = event.getModConfigurationDirectory().getParentFile();
 
+        configDir = new File(baseConfig, "packCompanion");
+        ConfigInitialiser.initialise(baseConfig);
+
         net.minecraftforge.common.MinecraftForge.EVENT_BUS.register(this);
+        VersionChecker.checkAndDownload();
 
         LOGGER.info("{} is Checking your modlist!", Tags.MOD_NAME);
-        ModlistCheckProcessor.checkModList(configDir, gameDir);
+        ModlistCheckProcessor.checkModList(baseConfig, gameDir);
     }
     @SubscribeEvent
     public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
