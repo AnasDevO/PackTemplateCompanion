@@ -14,6 +14,8 @@ import java.util.Date;
 import java.util.List;
 
 public class ModlistCheckProcessor {
+
+    public static File HTMLReportFile;
     private static final Gson GSON = new Gson();
     public static void checkModList(File configDir, File gameDir) {
         boolean isSuccess = false;
@@ -98,6 +100,7 @@ public class ModlistCheckProcessor {
 
             if(isSuccess) {
                 File htmlOutput = new File(logDir, fileName.replace(".md", ".html"));
+
                 HTMLGenerator.saveAsHtml(htmlEntries, htmlOutput, timeStamp);
             }
 

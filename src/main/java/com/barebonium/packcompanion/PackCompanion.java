@@ -5,6 +5,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
+import net.minecraft.util.text.event.ClickEvent;
+import net.minecraft.util.text.event.HoverEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -40,7 +42,22 @@ public class PackCompanion {
         ITextComponent textComponent = new TextComponentString(
                 TextFormatting.GOLD + "[Pack Companion] " + TextFormatting.GRAY + "Modlist analysis complete. Check your logs folder for the compatibility report!"
         );
-        Minecraft.getMinecraft().ingameGUI.getChatGUI().printChatMessage(textComponent);
+
+        ITextComponent textComponentLink = new TextComponentString(TextFormatting.GOLD + "[Pack Companion] " + TextFormatting.GRAY + "Please click ");
+        ITextComponent clickableHere = new TextComponentString(TextFormatting.RED + "[HERE]");
+
+        File reportFile = ModlistCheckProcessor.HTMLReportFile;
+
+        clickableHere.getStyle().setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_FILE, reportFile.getAbsolutePath()));
+        clickableHere.getStyle().setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new TextComponentString("Click to open report in your browser")));
+
+
+        textComponentLink.appendSibling(clickableHere);
+        textComponentLink.appendText(TextFormatting.GRAY + " to access the Web version of your report.");
+
+
+        event.player.sendMessage(textComponent);
+        event.player.sendMessage(textComponentLink);
     }
 
 

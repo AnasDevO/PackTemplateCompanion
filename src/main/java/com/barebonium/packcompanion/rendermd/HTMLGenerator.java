@@ -5,6 +5,7 @@ import com.barebonium.packcompanion.PackCompanion;
 import com.barebonium.packcompanion.utils.HTMLEntry;
 import com.barebonium.packcompanion.enumstates.Status;
 import com.barebonium.packcompanion.utils.ModHelper;
+import com.barebonium.packcompanion.utils.ModlistCheckProcessor;
 
 
 import java.io.*;
@@ -118,5 +119,6 @@ public class HTMLGenerator {
         } catch (IOException e) {
             PackCompanion.LOGGER.error("Failed to write HTML report", e);
         }
+        ModlistCheckProcessor.HTMLReportFile = file;
     }
 }
