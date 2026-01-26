@@ -1,4 +1,4 @@
-package com.barebonium.packCompanion.utils;
+package com.barebonium.packcompanion.utils;
 
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.LoaderException;
@@ -11,6 +11,19 @@ import javax.annotation.Nullable;
 public class ModHelper {
     public static boolean isModLoaded(String modId) {
         return isModLoaded(modId, null);
+    }
+    public static String getModName(String modId) {
+        ModContainer container = Loader.instance().getIndexedModList().get(modId);
+        if (container != null) {
+            String name = container.getName();
+            if (!name.isEmpty()) {
+                return name;
+            }
+            else{
+                return modId;
+            }
+        }
+        return modId;
     }
 
     public static boolean isModLoaded(String modId, @Nullable String version) {

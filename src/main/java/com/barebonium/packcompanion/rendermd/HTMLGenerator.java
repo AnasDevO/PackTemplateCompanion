@@ -1,0 +1,89 @@
+package com.barebonium.packcompanion.rendermd;
+
+
+import com.barebonium.packcompanion.PackCompanion;
+import com.barebonium.packcompanion.utils.HTMLEntry;
+import com.barebonium.packcompanion.enumstates.Status;
+
+
+import java.io.*;
+import java.util.ArrayList;
+
+public class HTMLGenerator {
+    public static void saveAsHtml(ArrayList<HTMLEntry> htmlEntries, File file, String timeStamp) {
+        String htmlHeader = "<!DOCTYPE html><html><head><title>Pack Companion Report</title>" +
+                "<style>" +
+                "  :root { " +
+                "    --bg-color: #0d1117; --text-color: #c9d1d9; --table-border: #30363d; " +
+                "    --header-bg: #161b22; --row-even: #161b22; --accent: #58a6ff; --title-border: #30363d; " +
+                "  }" +
+                "  body.light-mode { " +
+                "    --bg-color: #ffffff; --text-color: #24292f; --table-border: #d0d7de; " +
+                "    --header-bg: #f6f8fa; --row-even: #f6f8fa; --accent: #0969da; --title-border: #d8dee4; " +
+                "  }" +
+                "  body { font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif; " +
+                "         padding: 45px; line-height: 1.5; max-width: 1012px; margin: auto; " +
+                "         background-color: var(--bg-color); color: var(--text-color); transition: background 0.3s, color 0.3s; }" +
+                "  table { border-collapse: collapse; width: 100%; margin-bottom: 16px; border-spacing: 0; }" +
+                "  th, td { padding: 6px 13px; border: 1px solid var(--table-border); }" +
+                "  th { font-weight: 600; background-color: var(--header-bg); color: var(--accent); }" +
+                " td { text-align: center }"+
+                "  tr:nth-child(even) { background-color: var(--row-even); }" +
+                "  h1 { border-bottom: 1px solid var(--title-border); padding-bottom: .3em; display: flex; justify-content: space-between; align-items: center; }" +
+                "  .problematic { color: #ff7b72; font-weight: bold; } " +
+                "  body.light-mode .problematic { color: #cf222e; }" +
+                "  .deprecated { color: #ff7b72; font-weight: bold; } " +
+                "  body.light-mode .deprecated { color: #cf222e; }" +
+                "  a:link {color: #0969da; font-weight: bold;}"+
+                "  body.light-mode a:link {color: #0969da; font-weight: bold;}"+
+                "  .toggle-btn { padding: 8px 16px; font-size: 14px; border-radius: 6px; cursor: pointer; " +
+                "                border: 1px solid var(--table-border); background: var(--header-bg); color: var(--text-color); }" +
+                "</style></head><body>" +
+                "<h1>Pack Companion Report <button class='toggle-btn' onclick='toggleTheme()'>Toggle Theme</button></h1>" +
+                "<h4>Generated On: "+ timeStamp + "</h4>";
+
+        StringBuilder tableHtml = new StringBuilder("<table>");
+        tableHtml.append("<tr>");
+        tableHtml.append("<th>").append("Mod Name").append("</th>");
+        tableHtml.append("<th>").append("Status").append("</th>");
+        tableHtml.append("<th>").append("Recommended Action").append("</th>");
+        tableHtml.append("</tr>");
+        for(HTMLEntry htmlEntry : htmlEntries){
+            tableHtml.append("<tr>");
+            tableHtml.append("<td>").append(htmlEntry.modName).append("</td>");
+            if (htmlEntry.status== Status.DEPRECATED){
+                tableHtml.append("<td class=deprecated>").append(htmlEntry.status).append("</td>");
+                tableHtml.append("<td>")
+                        .append("<p>Use ")
+                        .append("<a href=\"https://www.curseforge.com/minecraft/mc-mods/")
+                        .append(htmlEntry.replacementModLink)
+                        .append("\">").append(htmlEntry.replacementModName)
+                        .append("</a>")
+                        .append("</p>")
+                        .append("</td>");
+            }else{
+                tableHtml.append("<td class=problematic>")
+                        .append(htmlEntry.status)
+                        .append("</td>");
+                tableHtml.append("<td>").append("<p>Use ")
+                        .append("<a href=\"https://www.curseforge.com/minecraft/mc-mods/")
+                        .append(htmlEntry.replacementModLink).append("\">")
+                        .append(htmlEntry.replacementModName).append("</a>")
+                        .append("</p>").append("</td>");
+            }
+            tableHtml.append("</tr>");
+        }
+
+        String script = "<script>" +
+                "  function toggleTheme() { document.body.classList.toggle('light-mode'); }" +
+                "</script>";
+
+        String finalHtml = htmlHeader + tableHtml + script + "</body></html>";
+
+        try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(file)))) {
+            writer.println(finalHtml);
+        } catch (IOException e) {
+            PackCompanion.LOGGER.error("Failed to write HTML report", e);
+        }
+    }
+}

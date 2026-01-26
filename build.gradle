@@ -110,6 +110,10 @@ repositories {
 }
 
 dependencies {
+    // Markdown to HTML library
+    implementation 'org.commonmark:commonmark:0.17.0'
+    implementation 'org.commonmark:commonmark-ext-gfm-tables:0.17.0'
+
     if (propertyBool('use_modern_java_syntax')) {
         annotationProcessor 'com.github.bsideup.jabel:jabel-javac-plugin:1.0.0'
         // Workaround for https://github.com/bsideup/jabel/issues/174

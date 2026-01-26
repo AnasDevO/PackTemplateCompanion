@@ -1,0 +1,47 @@
+package com.barebonium.packcompanion;
+
+import com.barebonium.packcompanion.utils.ModlistCheckProcessor;
+import net.minecraft.client.Minecraft;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.PlayerEvent;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
+import java.io.File;
+
+@Mod(modid = Tags.MOD_ID, name = Tags.MOD_NAME, version = Tags.VERSION)
+public class PackCompanion {
+
+    public static final Logger LOGGER = LogManager.getLogger(Tags.MOD_NAME);
+
+    /**
+     * <a href="https://cleanroommc.com/wiki/forge-mod-development/event#overview">
+     *     Take a look at how many FMLStateEvents you can listen to via the @Mod.EventHandler annotation here
+     * </a>
+     */
+    @Mod.EventHandler
+    public void preInit(FMLPreInitializationEvent event) {
+        File configDir = event.getModConfigurationDirectory();
+        File gameDir = event.getModConfigurationDirectory().getParentFile();
+
+        net.minecraftforge.common.MinecraftForge.EVENT_BUS.register(this);
+
+        LOGGER.info("{} is Checking your modlist!", Tags.MOD_NAME);
+        ModlistCheckProcessor.checkModList(configDir, gameDir);
+    }
+    @SubscribeEvent
+    public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
+        ITextComponent textComponent = new TextComponentString(
+                TextFormatting.GOLD + "[Pack Companion] " + TextFormatting.GRAY + "Modlist analysis complete. Check your logs folder for the compatibility report!"
+        );
+        Minecraft.getMinecraft().ingameGUI.getChatGUI().printChatMessage(textComponent);
+    }
+
+
+}
