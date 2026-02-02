@@ -84,7 +84,7 @@ public class ModlistCheckProcessor {
                                 break;
                         }
                         if (entry.action != Action.INCLUDE){
-                            writer.printf("| %s | %s | %s | %s |%n", modName, statusStr, actionMessage, entry.message);
+                            writer.printf("| %s | %s | %s | %s |%n", modName, statusStr, actionMessage, MessageRegex.translateToMarkdown(entry.message));
                         } else {
                             ModPatchList.add(entry);
                         }

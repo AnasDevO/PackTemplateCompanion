@@ -5,6 +5,7 @@ import com.barebonium.packcompanion.PackCompanion;
 import com.barebonium.packcompanion.configparse.ConfigParser;
 import com.barebonium.packcompanion.enumstates.Action;
 import com.barebonium.packcompanion.utils.HTMLEntry;
+import com.barebonium.packcompanion.utils.MessageRegex;
 import com.barebonium.packcompanion.utils.ModPatchEntry;
 import com.barebonium.packcompanion.utils.ModlistCheckProcessor;
 
@@ -113,7 +114,7 @@ public class HTMLGenerator {
                         .append(actionMessage)
                         .append("</td>");
                 tableHtml.append("<td>")
-                        .append(htmlEntry.message)
+                        .append(MessageRegex.translateToHTML(htmlEntry.message))
                         .append("</td>");
                 tableHtml.append("</tr>");
             } else {
