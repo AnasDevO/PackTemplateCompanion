@@ -75,7 +75,7 @@ public class HTMLGenerator {
                     actionMessage = "<p>Remove " + modName+ "</p>";
                     break;
                 case REPLACE:
-                    actionMessage = String.format("<p>Replace with <a href=\"https://www.curseforge.com/minecraft/mc-mods/%s\">%s</a></p>",
+                    actionMessage = String.format("<p>Replace with <a href=\"%s\">%s</a></p>",
                             htmlEntry.replacementModLink, htmlEntry.replacementModName);
                     break;
 //                case INCLUDE:

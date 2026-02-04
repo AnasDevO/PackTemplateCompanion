@@ -10,8 +10,17 @@ import javax.annotation.Nullable;
 
 public class ModHelper {
     public static boolean isModLoaded(String modId) {
-        return isModLoaded(modId, null);
+        return Loader.isModLoaded(modId);
     }
+
+    public static boolean isModLoaded(String modId, @Nullable String version) {
+        return isModLoaded(modId, version, true, false);
+    }
+
+    public static boolean isModLoaded(String modId, @Nullable String version, boolean isMinVersion, boolean isMaxVersion) {
+        return Loader.isModLoaded(modId) && isSpecifiedVersion(modId, version, isMinVersion, isMaxVersion);
+    }
+
     public static String getModName(String modId) {
         ModContainer container = Loader.instance().getIndexedModList().get(modId);
         if (container != null) {
@@ -26,15 +35,8 @@ public class ModHelper {
         return modId;
     }
 
-    public static boolean isModLoaded(String modId, @Nullable String version) {
-        return isModLoaded(modId, version, true, false);
-    }
 
-    public static boolean isModLoaded(String modId, @Nullable String version, boolean isMinVersion, boolean isMaxVersion) {
-        return Loader.isModLoaded(modId) && isSpecifiedVersion(modId, version, isMinVersion, isMaxVersion);
-    }
-
-    private static boolean isSpecifiedVersion(String modId, @Nullable String version, boolean isMinVersion, boolean isMaxVersion) {
+    public static boolean isSpecifiedVersion(String modId, @Nullable String version, boolean isMinVersion, boolean isMaxVersion) {
         if (version == null)
             return true;
 

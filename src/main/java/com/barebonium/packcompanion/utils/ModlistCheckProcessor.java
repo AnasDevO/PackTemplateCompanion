@@ -18,6 +18,24 @@ import static com.barebonium.packcompanion.configparse.ConfigParser.processConfi
 
 public class ModlistCheckProcessor {
 
+    /**
+     * An example of how to check if a mod is loaded and whether it should be added to the html list.
+     */
+    public static boolean shouldGenerateEntry(ModEntry entry) {
+        if(ModHelper.isModLoaded(entry.modId)) {
+            //If the version is empty then the mod likely needs to be fully removed.
+            if(entry.version == null) {
+                return true;
+            } else {
+                boolean isSpecifiedVersion = ModHelper.isSpecifiedVersion(entry.modId, entry.version, entry.isMinVersion, entry.isMaxVersion);
+                // Returns true if the entry is inclusive and the version is the specified version range or true
+                // if the entry is not inclusive, and it is not in the specified version range.
+                return (entry.isVersionInclusive && isSpecifiedVersion) || (!entry.isVersionInclusive && !isSpecifiedVersion);
+            }
+        }
+        return false;
+    }
+
     public static File HTMLReportFile;
     public static File GlobalOutputLog;
     private static final Gson GSON = new Gson();
@@ -55,9 +73,8 @@ public class ModlistCheckProcessor {
                 writer.println("| :--- | :--- | :--- | :--- |");
                 List<ModEntry> ModPatchList = new ArrayList<>();
                 for (ModEntry entry : entries) {
-                    boolean loaded = ModHelper.isModLoaded(entry.modId, entry.version, entry.isMinVersion, entry.isMaxVersion);
 
-                    if (loaded) {
+                    if (shouldGenerateEntry(entry)) {
                         String modName = ModHelper.getModName(entry.modId);
                         String statusStr = entry.status.toString();
                         String actionMessage;
@@ -66,13 +83,9 @@ public class ModlistCheckProcessor {
                                 actionMessage = "Remove " + modName;
                                 break;
                             case REPLACE:
-                                actionMessage = String.format("Replace with [%s](https://www.curseforge.com/minecraft/mc-mods/%s)",
+                                actionMessage = String.format("Replace with [%s](%s)",
                                         entry.replacementModName, entry.replacementModLink);
                                 break;
-//                            case INCLUDE:
-//                                actionMessage = String.format("Use [%s](https://www.curseforge.com/minecraft/mc-mods/%s)",
-//                                        entry.replacementModName, entry.replacementModLink);
-//                                break;
                             case UPGRADE:
                                 actionMessage = "Upgrade to version " + entry.replacementModVersion;
                                 break;
