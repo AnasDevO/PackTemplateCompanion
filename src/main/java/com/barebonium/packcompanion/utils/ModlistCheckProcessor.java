@@ -1,6 +1,7 @@
 package com.barebonium.packcompanion.utils;
 
 import com.barebonium.packcompanion.PackCompanion;
+import com.barebonium.packcompanion.config.ConfigHandler;
 import com.barebonium.packcompanion.enumstates.Action;
 import com.barebonium.packcompanion.rendermd.HTMLGenerator;
 import com.google.gson.Gson;
@@ -60,81 +61,86 @@ public class ModlistCheckProcessor {
             PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(outputLog)));
 
             List<ModEntry> entries = GSON.fromJson(reader, new TypeToken<List<ModEntry>>(){}.getType());
-            writer.println("# Pack Companion Report");
-            writer.println("");
-            writer.printf("### Generated on: %s%n",timeStamp);
-            writer.println("");
+            if (ConfigHandler.mdFileReportEnabled){
+                writer.println("# Pack Companion Report");
+                writer.println("");
+                writer.printf("### Generated on: %s%n",timeStamp);
+                writer.println("");
+            }
             if(entries == null || entries.isEmpty()) {
                 PackCompanion.LOGGER.info("There are no Mods in the modListGuide");
             }
             else {
-                writer.println("## Mod Analysis");
-                writer.println("| Mod Name | Status | Recommended Action | Reason |");
-                writer.println("| :--- | :--- | :--- | :--- |");
-                List<ModEntry> ModPatchList = new ArrayList<>();
-                for (ModEntry entry : entries) {
+                if(ConfigHandler.modAnalysisEnabled && ConfigHandler.mdFileReportEnabled){
+                    writer.println("## Mod Analysis");
+                    writer.println("| Mod Name | Status | Recommended Action | Reason |");
+                    writer.println("| :--- | :--- | :--- | :--- |");
+                    List<ModEntry> ModPatchList = new ArrayList<>();
+                    for (ModEntry entry : entries) {
 
-                    if (shouldGenerateEntry(entry)) {
+                        if (shouldGenerateEntry(entry)) {
+                            String modName = ModHelper.getModName(entry.modId);
+                            String statusStr = entry.status.toString();
+                            String actionMessage;
+                            switch (entry.action) {
+                                case REMOVE:
+                                    actionMessage = "Remove " + modName;
+                                    break;
+                                case REPLACE:
+                                    actionMessage = String.format("Replace with [%s](%s)",
+                                            entry.replacementModName, entry.replacementModLink);
+                                    break;
+                                case UPGRADE:
+                                    actionMessage = "Upgrade to version " + entry.replacementModVersion;
+                                    break;
+                                case DOWNGRADE:
+                                    actionMessage = "Downgrade to version " + entry.replacementModVersion;
+                                    break;
+                                default:
+                                    actionMessage = "Check mod compatibility";
+                                    break;
+                            }
+                            if (entry.action != Action.INCLUDE){
+                                writer.printf("| %s | %s | %s | %s |%n", modName, statusStr, actionMessage, MessageRegex.translateToMarkdown(entry.message));
+                            } else {
+                                ModPatchList.add(entry);
+                            }
+                            htmlEntries.add(new HTMLEntry(
+                                    modName,
+                                    entry.status,
+                                    entry.version,
+                                    entry.replacementModName,
+                                    entry.replacementModLink,
+                                    entry.action,
+                                    entry.isMinVersion,
+                                    entry.isMaxVersion,
+                                    entry.replacementModVersion,
+                                    entry.patchList,
+                                    entry.message
+                            ));
+                        }
+                    }
+                    writer.println("## Mods and Patches to include");
+                    writer.println("| Mod Name | Patch for | Description |");
+                    writer.println("| :--- | :--- | :--- |");
+                    for(ModEntry entry : ModPatchList) {
                         String modName = ModHelper.getModName(entry.modId);
-                        String statusStr = entry.status.toString();
-                        String actionMessage;
-                        switch (entry.action) {
-                            case REMOVE:
-                                actionMessage = "Remove " + modName;
-                                break;
-                            case REPLACE:
-                                actionMessage = String.format("Replace with [%s](%s)",
-                                        entry.replacementModName, entry.replacementModLink);
-                                break;
-                            case UPGRADE:
-                                actionMessage = "Upgrade to version " + entry.replacementModVersion;
-                                break;
-                            case DOWNGRADE:
-                                actionMessage = "Downgrade to version " + entry.replacementModVersion;
-                                break;
-                            default:
-                                actionMessage = "Check mod compatibility";
-                                break;
+
+                        for (ModPatchEntry patchEntry : entry.patchList){
+                            String patchName = String.format("[%s](https://www.curseforge.com/minecraft/mc-mods/%s)",
+                                    patchEntry.modName, patchEntry.modLink);
+                            writer.printf("| %s | %s | %s |%n", patchName, modName, patchEntry.modDescription);
                         }
-                        if (entry.action != Action.INCLUDE){
-                            writer.printf("| %s | %s | %s | %s |%n", modName, statusStr, actionMessage, MessageRegex.translateToMarkdown(entry.message));
-                        } else {
-                            ModPatchList.add(entry);
-                        }
-                        htmlEntries.add(new HTMLEntry(
-                                modName,
-                                entry.status,
-                                entry.version,
-                                entry.replacementModName,
-                                entry.replacementModLink,
-                                entry.action,
-                                entry.isMinVersion,
-                                entry.isMaxVersion,
-                                entry.replacementModVersion,
-                                entry.patchList,
-                                entry.message
-                        ));
+
                     }
                 }
-                writer.println("## Mods and Patches to include");
-                writer.println("| Mod Name | Patch for | Description |");
-                writer.println("| :--- | :--- | :--- |");
-                for(ModEntry entry : ModPatchList) {
-                    String modName = ModHelper.getModName(entry.modId);
-
-                    for (ModPatchEntry patchEntry : entry.patchList){
-                        String patchName = String.format("[%s](https://www.curseforge.com/minecraft/mc-mods/%s)",
-                                patchEntry.modName, patchEntry.modLink);
-                        writer.printf("| %s | %s | %s |%n", patchName, modName, patchEntry.modDescription);
-                    }
-
+                if(ConfigHandler.configAnalysisEnabled && ConfigHandler.mdFileReportEnabled){
+                    writer.println("## Config Analysis");
+                    writer.println("| Mod Name | Config Name | Reason |");
+                    writer.println("| :--- | :--- | :--- |");
+                    File configEntries = new File(Minecraft.getMinecraft().gameDir, "config/packCompanion/configEntries.json");
+                    processConfigJsonToOutput(configEntries, outputLog);
                 }
-
-                writer.println("## Config Analysis");
-                writer.println("| Mod Name | Config Name | Reason |");
-                writer.println("| :--- | :--- | :--- |");
-                File configEntries = new File(Minecraft.getMinecraft().gameDir, "config/packCompanion/configEntries.json");
-                processConfigJsonToOutput(configEntries, outputLog);
                 isSuccess = true;
             }
             writer.println("");
@@ -146,7 +152,9 @@ public class ModlistCheckProcessor {
             if(isSuccess) {
                 File htmlOutput = new File(logDir, fileName.replace(".md", ".html"));
                 GlobalOutputLog = htmlOutput;
-                HTMLGenerator.saveAsHtml(htmlEntries, htmlOutput, timeStamp);
+                if(ConfigHandler.htmlFileReportEnabled){
+                    HTMLGenerator.saveAsHtml(htmlEntries, htmlOutput, timeStamp);
+                }
             }
 
         } catch (IOException e){
