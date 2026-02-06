@@ -37,7 +37,7 @@ public class HTMLGenerator {
                 "  .problematic { color: #ff7b72; font-weight: bold; } " +
                 "  body.light-mode .problematic { color: #cf222e; }" +
                 "  .deprecated { color: #ffdc72; font-weight: bold; } " +
-                "  body.light-mode .deprecated { color: #cf222e; }" +
+                "  body.light-mode .deprecated { color: #ffa700; }" +
                 "  a:link {color: #0969da; font-weight: bold;}"+
                 "  body.light-mode a:link {color: #0969da; font-weight: bold;}"+
                 "  .toggle-btn { padding: 8px 16px; font-size: 14px; border-radius: 6px; cursor: pointer; " +
@@ -136,7 +136,7 @@ public class HTMLGenerator {
                     boolean loaded = ModHelper.isModLoaded(patchEntry.modId);
                     if (!loaded){
                         patchEntryCount++;
-                        String patchModName = String.format("<p><a href=\"https://www.curseforge.com/minecraft/mc-mods/%s\">%s</a></p>",
+                        String patchModName = String.format("<p><a href=\"%s\">%s</a></p>",
                                 patchEntry.modLink, patchEntry.modName);
                         patchListTable.append("<tr>");
                         patchListTable.append("<td>").append(patchModName).append("</td>");

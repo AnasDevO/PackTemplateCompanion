@@ -48,7 +48,7 @@ public class ModEntry {
      * <li> DEPRECATED - used when a mod is forked or superseded and should be replaced </li>
      * <li> PROBLEMATIC - used when a mod has major bugs and should be removed or downgraded </li>
      */
-    public Status status;
+    public Status status = Status.DEPRECATED;
 
     /**
      * The recommended action to fix this issue.
@@ -70,7 +70,7 @@ public class ModEntry {
     public @Nullable String replacementModVersion;
 
     /** The message that will display in the output file. Usually the reason the mod is on this list. */
-    public String message;
+    public String message = "";
 
     /** A list of mods used that patch or fix the main mod. ThaumcraftFix is an example of this. */
     public @Nullable List<ModPatchEntry> patchList;
