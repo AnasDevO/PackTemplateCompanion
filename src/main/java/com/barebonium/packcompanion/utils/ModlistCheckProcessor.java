@@ -127,9 +127,12 @@ public class ModlistCheckProcessor {
                         String modName = ModHelper.getModName(entry.modId);
 
                         for (ModPatchEntry patchEntry : entry.patchList){
-                            String patchName = String.format("[%s](https://www.curseforge.com/minecraft/mc-mods/%s)",
-                                    patchEntry.modName, patchEntry.modLink);
-                            writer.printf("| %s | %s | %s |%n", patchName, modName, patchEntry.modDescription);
+                            boolean loaded = ModHelper.isModLoaded(patchEntry.modId);
+                            if (loaded){
+                                String patchName = String.format("[%s](https://www.curseforge.com/minecraft/mc-mods/%s)",
+                                        patchEntry.modName, patchEntry.modLink);
+                                writer.printf("| %s | %s | %s |%n", patchName, modName, patchEntry.modDescription);
+                            }
                         }
 
                     }

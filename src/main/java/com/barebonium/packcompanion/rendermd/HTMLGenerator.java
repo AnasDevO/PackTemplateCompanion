@@ -5,10 +5,7 @@ import com.barebonium.packcompanion.PackCompanion;
 import com.barebonium.packcompanion.config.ConfigHandler;
 import com.barebonium.packcompanion.configparse.ConfigParser;
 import com.barebonium.packcompanion.enumstates.Action;
-import com.barebonium.packcompanion.utils.HTMLEntry;
-import com.barebonium.packcompanion.utils.MessageRegex;
-import com.barebonium.packcompanion.utils.ModPatchEntry;
-import com.barebonium.packcompanion.utils.ModlistCheckProcessor;
+import com.barebonium.packcompanion.utils.*;
 import net.minecraftforge.common.config.Config;
 
 import java.io.*;
@@ -39,7 +36,7 @@ public class HTMLGenerator {
                 "  h1 { border-bottom: 1px solid var(--title-border); padding-bottom: .3em; display: flex; justify-content: space-between; align-items: center; }" +
                 "  .problematic { color: #ff7b72; font-weight: bold; } " +
                 "  body.light-mode .problematic { color: #cf222e; }" +
-                "  .deprecated { color: #ff7b72; font-weight: bold; } " +
+                "  .deprecated { color: #ffdc72; font-weight: bold; } " +
                 "  body.light-mode .deprecated { color: #cf222e; }" +
                 "  a:link {color: #0969da; font-weight: bold;}"+
                 "  body.light-mode a:link {color: #0969da; font-weight: bold;}"+
@@ -53,6 +50,7 @@ public class HTMLGenerator {
         StringBuilder tableHtml = new StringBuilder();
         StringBuilder patchListTable = new StringBuilder();
         List<HTMLEntry> modPatchList = new ArrayList<>();
+        int patchEntryCount = 0;
         if (ConfigHandler.modAnalysisEnabled){
             tableHtml.append("<h2>Mod Analysis</h2> <table>");
             tableHtml.append("<tr>");
@@ -67,12 +65,6 @@ public class HTMLGenerator {
                 String statusStr = htmlEntry.status.toString();
                 String htmlClass;
                 String actionMessage;
-
-
-                tableHtml.append("<tr>");
-                tableHtml.append("<td>").append(modName).append("</td>");
-
-
 
 
                 switch (htmlEntry.action) {
@@ -109,6 +101,8 @@ public class HTMLGenerator {
                         break;
                 }
                 if(htmlEntry.action != Action.INCLUDE){
+                    tableHtml.append("<tr>");
+                    tableHtml.append("<td>").append(modName).append("</td>");
                     tableHtml.append("<td class=")
                             .append(htmlClass)
                             .append(">")
@@ -134,26 +128,32 @@ public class HTMLGenerator {
             patchListTable.append("<th>").append("Patch for mod").append("</th>");
             patchListTable.append("<th>").append("Description").append("</th>");
             patchListTable.append("</tr>");
+
             for (HTMLEntry htmlEntry : modPatchList){
                 String modName = htmlEntry.modName;
 
                 for (ModPatchEntry patchEntry : htmlEntry.patchList){
-                    String patchModName = String.format("<p><a href=\"https://www.curseforge.com/minecraft/mc-mods/%s\">%s</a></p>",
-                            patchEntry.modLink, patchEntry.modName);
-                    patchListTable.append("<tr>");
-                    patchListTable.append("<td>").append(patchModName).append("</td>");
-                    patchListTable.append("<td>").append(modName).append("</td>");
-                    patchListTable.append("<td>").append(patchEntry.modDescription).append("</td>");
+                    boolean loaded = ModHelper.isModLoaded(patchEntry.modId);
+                    if (!loaded){
+                        patchEntryCount++;
+                        String patchModName = String.format("<p><a href=\"https://www.curseforge.com/minecraft/mc-mods/%s\">%s</a></p>",
+                                patchEntry.modLink, patchEntry.modName);
+                        patchListTable.append("<tr>");
+                        patchListTable.append("<td>").append(patchModName).append("</td>");
+                        patchListTable.append("<td>").append(modName).append("</td>");
+                        patchListTable.append("<td>").append(patchEntry.modDescription).append("</td>");
+                    }
                 }
-
-
-
             }
             patchListTable.append("</table>");
         }
 
         String script = "<script>" +
                 "  function toggleTheme() { document.body.classList.toggle('light-mode'); }" +
+                "var links = document.links;\n" +
+                "for (var i = 0; i < links.length; i++) {\n" +
+                "     links[i].target = \"_blank\";\n" +
+                "}"+
                 "</script>";
 
         if(modPatchList.isEmpty()){
@@ -162,6 +162,10 @@ public class HTMLGenerator {
         String ConfigTableFinal="";
         if(ConfigHandler.configAnalysisEnabled && ConfigParser.ConfigEntryIndex != 0){
             ConfigTableFinal = ConfigParser.ConfigTable.toString();
+        }
+        String PatchListTableFinal=patchListTable.toString();
+        if (patchEntryCount != 0){
+            PatchListTableFinal="";
         }
 
         String finalHtml = htmlHeader + tableHtml + patchListTable  + ConfigTableFinal + script + "</body></html>";
