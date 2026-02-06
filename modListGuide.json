@@ -521,7 +521,7 @@
     "message": "Outdated. Use #link:[Tinkers' Antique](https://www.curseforge.com/minecraft/mc-mods/tinkers-antique) which merges modern features and backports."
   },
   {
-    "modId": "toughexpansion",
+    "modId": "tanaddons",
     "status": "PROBLEMATIC",
     "replacementModName": "Survival Tools",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/survival-tools",
@@ -569,6 +569,162 @@
         "modId": "optinotfine",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/optinotfine",
         "modDescription": "Fixing OptiFine, until something better comes."
+      }
+    ]
+  },
+  {
+    "modId": "battletowers",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Battle Towers Fixes",
+        "modId": "btfixes",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/btfixes",
+        "modDescription": "Minimally invasive fixes for Battle Towers."
+      }
+    ]
+  },
+  {
+    "modId": "weaponmod",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Balkon's Expansion",
+        "modId": "balkonsexpansion",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/balkons-expansion",
+        "modDescription": "An expansion for Balkon's WeaponMod: Legacy in 1.12.2 that supports materials from other mods."
+      }
+    ]
+  },
+  {
+    "modId": "jei",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "JEI Area Fixer",
+        "modId": "jei_area_fixer",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/jei-area-fixer",
+        "modDescription": "fix JEI GUI to not overlap with modded GUIs."
+      }
+    ]
+  },
+  {
+    "modId": "ic2",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "IC2 Patcher",
+        "modId": "ic2patcher",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/ic2-patcher",
+        "modDescription": "Fixes several issues in IndustrialCraft2."
+      }
+    ]
+  },
+  {
+    "modId": "industrialforegoing",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "IFPatcher",
+        "modId": "ifpatcher",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/ifpatcher",
+        "modDescription": "Patch some known bugs from Industrial Foregoing for 1.12.2 as it is officially EOL."
+      }
+    ]
+  },
+  {
+    "modId": "jeresources",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Just Enough Magiculture",
+        "modId": "justenoughmagiculture",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/just-enough-magiculture",
+        "modDescription": "This mod adds a large number of Just Enough Resources integrations."
+      }
+    ]
+  },
+  {
+    "modId": "mowziesmobs",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Mowzie's Mobs' Baubles",
+        "modId": "mmbaubles",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs-baubles",
+        "modDescription": "A small addon for Mowzie's Mobs that adds Baubles support."
+      }
+    ]
+  },
+  {
+    "modId": "patchouli",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Patchouli Books",
+        "modId": "patchoulibooks",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/patchouli-books",
+        "modDescription": "Adds additional integration and QoL for Patchouli."
+      }
+    ]
+  },
+  {
+    "modId": "railcraft",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Railway Depot Worker",
+        "modId": "rdw",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/railway-depot-worker",
+        "modDescription": "Fixes issues left in old versions of Railcraft."
+      }
+    ]
+  },
+  {
+    "modId": "thaumcraft",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Thaumcraft Fix",
+        "modId": "thaumcraftfix",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumcraftfix",
+        "modDescription": "Many a fix for Thaumcraft 6."
+      },
+      {
+        "modName": "ThaumicTweaker",
+        "modId": "thaumictweaker",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
+        "modDescription": "All the Thaumcraft 6 tweaks a tweaker could want."
+      },
+      {
+        "modName": "Congrega Mystica",
+        "modId": "congregamystica",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/congrega-mystica",
+        "modDescription": "The Thaumcraft 6 integration addon."
+      }
+    ]
+  },
+  {
+    "modId": "voxelmap",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "VoxelMap Fixes",
+        "modId": "vmfixes",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/voxelmap-fixes",
+        "modDescription": "Fixes various bugs in VoxelMap."
+      }
+    ]
+  },
+  {
+    "modId": "witchery",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Witchery: Companion",
+        "modId": "witcherycompanion",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/witchery-companion",
+        "modDescription": "A Companion mod for Witchery: Resurrected, patching bugs, adding integrations and introducing modpack maker-oriented features."
       }
     ]
   }
