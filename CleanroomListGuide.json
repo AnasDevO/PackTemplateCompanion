@@ -1,0 +1,59 @@
+[
+  {
+    "modId": "advancedshader",
+    "status": "PROBLEMATIC",
+    "version": null,
+    "action": "REMOVE",
+    "message": "Binary patching, incompatible."
+  },
+  {
+    "modId": "rawinput",
+    "status": "DEPRECATED",
+    "version": null,
+    "action": "REMOVE",
+    "message": "Already included in Cleanroom."
+  },
+  {
+    "modId": "serializationisbad",
+    "status": "DEPRECATED",
+    "version": null,
+    "action": "REMOVE",
+    "message": "Modern Java versions fix the issue this mod solves."
+  },
+  {
+    "modId": "codechickenlib",
+    "status": "DEPRECATED",
+    "version": null,
+    "replacementModName": "CodeChicken Lib CRE",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-cre",
+    "action": "REPLACE",
+    "message": "Outdated and has several bugs fixed in the CRE version (Cleanroom Exclusive)."
+  },
+  {
+    "modId": "randomportals",
+    "status": "PROBLEMATIC",
+    "version": null,
+    "replacementModName": "Clean Portals",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/clean-portals-randomportals-cleanroom-edition",
+    "action": "REPLACE",
+    "message": "Does not work with Cleanroom Launcher. Use the Cleanroom Edition replacement."
+  },
+  {
+    "modId": "mowziesmobs",
+    "status": "PROBLEMATIC",
+    "version": "5218945",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionInclusive": false,
+    "action": "UPGRADE",
+    "replacementModVersion": "latest beta",
+    "patchList": [
+      {
+        "modName": "Mowzie's Mobs' Baubles",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs-baubles",
+        "modDescription": "Optional Baubles integration."
+      }
+    ],
+    "message": "Must use the latest beta version or it will crash. Optional Baubles integration available."
+  }
+]

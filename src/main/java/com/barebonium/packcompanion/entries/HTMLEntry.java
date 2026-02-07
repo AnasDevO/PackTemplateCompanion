@@ -1,4 +1,4 @@
-package com.barebonium.packcompanion.utils;
+package com.barebonium.packcompanion.entries;
 
 import com.barebonium.packcompanion.enumstates.Status;
 import com.barebonium.packcompanion.enumstates.Action;

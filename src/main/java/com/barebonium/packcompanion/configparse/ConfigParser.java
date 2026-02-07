@@ -1,9 +1,9 @@
 package com.barebonium.packcompanion.configparse;
 
 import com.barebonium.packcompanion.PackCompanion;
-import com.barebonium.packcompanion.utils.ConfigEntry;
+import com.barebonium.packcompanion.entries.ConfigEntry;
 import com.barebonium.packcompanion.utils.ConfigSetting;
-import com.barebonium.packcompanion.utils.ModDependency;
+import com.barebonium.packcompanion.entries.ModDependency;
 import com.barebonium.packcompanion.utils.ModHelper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

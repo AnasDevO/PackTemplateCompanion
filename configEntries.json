@@ -1,0 +1,45 @@
+[
+    {
+        "modId": "potioncore",
+        "version":"1.9_for_1.12.2",
+        "isMinVersion":"false",
+        "isMaxVersion":"true",
+        "settings": [
+            {
+                "name": "ControllableJumpBoost",
+                "field": "com.tmtravlr.potioncore.ConfigLoader#controllableJumpBoost",
+                "type": "boolean",
+                "value": "true",
+                "shouldMatch":"true",
+                "message":"This Setting should be false!",
+                "dependencies":[]               
+            },
+            {
+                "name": "FixReach",
+                "field": "com.tmtravlr.potioncore.ConfigLoader#fixReach",
+                "type": "boolean",
+                "value": "true",
+                "shouldMatch":"true",
+                "message":"This Setting should be false!",
+                "dependencies":[]  
+            }
+        ]
+    },
+    {
+        "modId": "astralsorcery",
+        "version":"1.12.2-1.10.27",
+        "isMinVersion":"false",
+        "isMaxVersion":"true",
+        "settings": [
+            {
+                "name": "WeakSkyRendersWhitelist",
+                "field": "hellfirepvp.astralsorcery.common.data.config.Config#weakSkyRendersWhitelist",
+                "type": "list_int_p",
+                "value": "Contains:[0]",
+                "shouldMatch":"true",
+                "message":"This Setting should contain the dimension 1 (not overworld)... or not",
+                "dependencies":[]  
+            }
+        ]
+    }
+]

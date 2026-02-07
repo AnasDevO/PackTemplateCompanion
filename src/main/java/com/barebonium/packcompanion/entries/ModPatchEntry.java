@@ -1,4 +1,4 @@
-package com.barebonium.packcompanion.utils;
+package com.barebonium.packcompanion.entries;
 
 public class ModPatchEntry {
     public String modName;

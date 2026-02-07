@@ -75,7 +75,9 @@ public class PackCompanion {
         if(ConfigHandler.packCompanionEnabled){
             ConfigInitialiser.initialise(baseConfig);
             net.minecraftforge.common.MinecraftForge.EVENT_BUS.register(this);
-            VersionChecker.checkAndDownload();
+            if (!ConfigHandler.debugMode) {
+                VersionChecker.checkAndDownload();
+            }
 
             LOGGER.info("{} is Checking your modlist!", Tags.MOD_NAME);
             ModlistCheckProcessor.checkModList(baseConfig, gameDir);

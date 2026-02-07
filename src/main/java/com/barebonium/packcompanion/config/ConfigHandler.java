@@ -36,4 +36,8 @@ public class ConfigHandler {
     @Config.RequiresMcRestart
     @Config.Comment("Enable PackCompanion Markdown login message")
     public static boolean mdOnLoginMessageEnabled = true;
+
+    @Config.RequiresMcRestart
+    @Config.Comment("Enable debug mode")
+    public static boolean debugMode = false;
 }

@@ -1,5 +1,7 @@
 package com.barebonium.packcompanion.utils;
 
+import com.barebonium.packcompanion.entries.ModDependency;
+
 import java.util.List;
 
 public class ConfigSetting {

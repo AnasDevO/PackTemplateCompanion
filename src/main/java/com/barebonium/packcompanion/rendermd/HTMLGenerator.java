@@ -4,9 +4,10 @@ package com.barebonium.packcompanion.rendermd;
 import com.barebonium.packcompanion.PackCompanion;
 import com.barebonium.packcompanion.config.ConfigHandler;
 import com.barebonium.packcompanion.configparse.ConfigParser;
+import com.barebonium.packcompanion.entries.HTMLEntry;
+import com.barebonium.packcompanion.entries.ModPatchEntry;
 import com.barebonium.packcompanion.enumstates.Action;
 import com.barebonium.packcompanion.utils.*;
-import net.minecraftforge.common.config.Config;
 
 import java.io.*;
 import java.util.ArrayList;
