@@ -598,6 +598,14 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "distantbanners",
+    "status": "DEPRECATED",
+    "replacementModName": "Fixeroo",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump",
+    "action": "REPLACE",
+    "message": "#link:[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump) already has a better implementation of this that supports all tile entities."
+  },
+  {
     "modId": "drawerfps",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",

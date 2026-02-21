@@ -186,6 +186,35 @@
         ]
     },
     {
+      "modId": "thaumicperiphery",
+      "settings": [
+        {
+          "name": "Alchemical Brass Requires Copper",
+          "field": "thaumicperiphery.Config#copperBrassRecipe",
+          "type": "boolean",
+          "value": "true",
+          "shouldMatch": "true",
+          "message": "The `Alchemical Brass Requires Copper` tweak from #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker) has a better implementation of this feature. Configuration option is located in `ThaumicTweaker - Tweaks.cfg` → `general` → `miscellaneous tweaks`."
+        },
+        {
+          "name": "Enable Caster Gauntlet",
+          "field": "thaumicperiphery.Config#emberCaster",
+          "type": "boolean",
+          "value": "true",
+          "shouldMatch": "true",
+          "message": "The Clockwork Caster's Gauntlet from  #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) has a better and more configurable implementation."
+        },
+        {
+          "name": "Enable Caster Gauntlet",
+          "field": "thaumicperiphery.Config#manaCaster",
+          "type": "boolean",
+          "value": "true",
+          "shouldMatch": "true",
+          "message": "The Elementium Caster's Gauntlet from #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) has a better and more configurable implementation."
+        }
+      ]
+    },
+    {
         "modId": "thaumictweaker",
         "settings": [
             {
@@ -1831,6 +1860,24 @@
                 "dependencies":[
                     {
                         "modId": "watercontrolextreme"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "modId": "xporbclump",
+        "settings": [
+            {
+                "name": "distanceList",
+                "field": "surreal.fixeroo.FixerooConfig#TESRDISTANCE#distanceList",
+                "type": "list_int_p",
+                "value": "Contains:[0]",
+                "shouldMatch": "true",
+                "message": "The tile entity distance tweaks are located in `xporbclump.cfg` → `general` → `tesrdistance`.",
+                "dependencies": [
+                    {
+                        "modId": "distantbanners"
                     }
                 ]
             }
