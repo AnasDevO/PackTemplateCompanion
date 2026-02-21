@@ -655,6 +655,12 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "efficiententities",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "An AI generated implementation of #link:[FastEntityRender](https://github.com/Meldexun/FastEntityRender). Causes numerous render issues."
+  },
+  {
     "modId": "embers",
     "version": "1.19",
     "isMinVersion": false,
@@ -1490,7 +1496,7 @@
     "isMinVersion": true,
     "isMaxVersion": false,
     "isVersionExclusive": true,
-    "replacementModName": "Ore Stages ReStaged",
+    "replacementModName": "Ore Stages: ReStaged",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/ore-stages-restaged",
     "action": "REPLACE",
     "message": "Has issues with VintageFix's 'mixin.dynamic_resources' setting. Use #link:[Ore Stages ReStaged](https://www.curseforge.com/minecraft/mc-mods/ore-stages-restaged)."
@@ -1634,6 +1640,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "randommobtextures",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated mod that can impact overall performance. Use Optifine instead."
   },
   {
     "modId": "randompatches",
@@ -1786,6 +1798,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "smartspawn",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Causes significant lag when entering a world or respawning."
   },
   {
     "modId": "smooth-scrolling-everywhere",
