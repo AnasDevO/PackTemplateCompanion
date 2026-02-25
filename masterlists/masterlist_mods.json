@@ -867,6 +867,10 @@
   {
     "modId": "forgelin",
     "status": "DEPRECATED",
+    "version": "1.8.3",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": false,
     "replacementModName": "Forgelin-Continuous",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/forgelin-continuous",
     "action": "REPLACE",
@@ -1549,6 +1553,12 @@
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "Empty jar that does nothing."
+  },
+  {
+    "modId": "performancemonitoringenhancer",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Can severely degrade performance, strongly advised to remove it."
   },
   {
     "modId": "persistency",
