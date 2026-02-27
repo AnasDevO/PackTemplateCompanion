@@ -1488,6 +1488,12 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "oldresearch",
+    "status": "PROBLEMATIC",
+    "action": "INFO",
+    "message": "May cause aspects to disappear on some items. It is also unmaintained with numerous bugs and lacks compatibility with other Thaumcraft addons."
+  },
+  {
     "modId": "openblocks",
     "version": "1.8.3.1",
     "isMinVersion": true,
