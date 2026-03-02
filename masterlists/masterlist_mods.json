@@ -1382,7 +1382,7 @@
     "modId": "nether_api",
     "status": "PROBLEMATIC",
     "action": "INFO",
-    "message": "Overwrites vanilla spawn rules, sometimes causing players to spawn underwater. Overwrites nether generation using its own methods. Incompatible with all mods except those that are explicitly supported."
+    "message": "Overwrites vanilla spawn rules, sometimes causing players to spawn underwater. Overwrites nether generation using its own methods. Incompatible with all mods that add Nether biomes except those that are explicitly supported."
   },
   {
     "modId": "netherportalfix",
