@@ -1098,6 +1098,9 @@
                 "dependencies":[
                     {
                         "modId": "ihateghostblocks"
+                    },
+                    {
+                        "modId": "preventghost"
                     }
                 ]
             },
