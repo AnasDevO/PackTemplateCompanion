@@ -718,6 +718,9 @@
                 "dependencies":[
                     {
                         "modId": "continousmusic"
+                    },
+                    {
+                        "modId": "musicinterval"
                     }
                 ]
             },

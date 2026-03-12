@@ -1351,6 +1351,14 @@
     "message": "Known to cause crashes, not recommended for use."
   },
   {
+    "modId": "musicinterval",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "muteuselesslogs",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
