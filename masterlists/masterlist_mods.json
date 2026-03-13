@@ -992,6 +992,12 @@
     ]
   },
   {
+    "modId": "ichunutil",
+    "status": "PROBLEMATIC",
+    "action": "INFO",
+    "message": "Can cause invisible entities in your world, as noted on this #link:[issue report](https://github.com/iChun/iChunUtil/issues/178#issuecomment-2917948068)."
+  },
+  {
     "modId": "ikwid",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1041,6 +1047,14 @@
     ]
   },
   {
+    "modId": "ihateghostblocks",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "insomniac",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1071,6 +1085,12 @@
     "message": "Outdated. Use #link:[Had Enough Characters](https://www.curseforge.com/minecraft/mc-mods/had-enough-characters)."
   },
   {
+    "modId": "jehighlights",
+    "status": "DEPRECATED",
+    "action": "REMOVE",
+    "message": "Completely redundant. #link:[Just Enough Items (JEI) / Had Enough Items (HEI)](https://www.curseforge.com/minecraft/mc-mods/had-enough-items) already has the same feature."
+  },
+  {
     "modId": "jeid",
     "version": "2.2.4",
     "isMinVersion": true,
@@ -1089,10 +1109,10 @@
     "isMaxVersion": false,
     "isVersionExclusive": true,
     "status": "DEPRECATED",
-    "replacementModName": "HadEnoughItems (HEI)",
+    "replacementModName": "Had Enough Items (HEI)",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/had-enough-items",
     "action": "REPLACE",
-    "message": "Outdated. Use #link:[HadEnoughItems (HEI)](https://www.curseforge.com/minecraft/mc-mods/had-enough-items)."
+    "message": "Outdated. Use #link:[Had Enough Items (HEI)](https://www.curseforge.com/minecraft/mc-mods/had-enough-items)."
   },
   {
     "modId": "jei",
@@ -1331,6 +1351,14 @@
     "message": "Known to cause crashes, not recommended for use."
   },
   {
+    "modId": "musicinterval",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "muteuselesslogs",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1340,6 +1368,14 @@
   },
   {
     "modId": "nanfix",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "narrus_yeetus",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
@@ -1371,6 +1407,12 @@
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "Outdated Vintagium fork. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium) or (Cleanroom Only) #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
+  },
+  {
+    "modId": "nether_api",
+    "status": "PROBLEMATIC",
+    "action": "INFO",
+    "message": "Overwrites vanilla spawn rules, sometimes causing players to spawn underwater. Overwrites nether generation using its own methods. Incompatible with all mods that add Nether or End biomes except those that are explicitly supported."
   },
   {
     "modId": "netherportalfix",
@@ -1480,6 +1522,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "oldresearch",
+    "status": "PROBLEMATIC",
+    "action": "INFO",
+    "message": "May cause aspects to disappear on some items. It is also unmaintained with numerous bugs and lacks compatibility with other Thaumcraft addons."
   },
   {
     "modId": "openblocks",
@@ -1601,6 +1649,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "preventghost",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "questbook",
@@ -2090,6 +2146,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "tropicraft",
+    "status": "PROBLEMATIC",
+    "action": "INFO",
+    "message": "Has numerous issues and memory leaks. Not recommended for use."
   },
   {
     "modId": "twilightforest",
