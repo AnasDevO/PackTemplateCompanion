@@ -816,6 +816,19 @@
                 ]
             },
             {
+                "name": "Difficulty Consistency",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#WORLD#utDifficultyConsistencyToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Difficulty Consistency` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world`.",
+                "dependencies":[
+                    {
+                        "modId": "difficultypatch"
+                    }
+                ]
+            },
+            {
                 "name": "Load Sounds",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#LOAD_SOUND#utLoadSoundMode",
                 "type": "string",

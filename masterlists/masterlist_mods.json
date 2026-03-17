@@ -590,6 +590,14 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "difficultypatch",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "ding",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
