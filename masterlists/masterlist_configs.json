@@ -542,6 +542,19 @@
                 ]
             },
             {
+                "name": "Packet Size",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#MISC#utPacketSize",
+                "type": "int",
+                "value": "0x1000000",
+                "shouldMatch":"true",
+                "message":"The `Packet Size` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `misc`.",
+                "dependencies":[
+                    {
+                        "modId": "biggerpacketsplz"
+                    }
+                ]
+            },
+            {
                 "name": "[1] Block Dispenser Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#BLOCK_DISPENSER#utBlockDispenserToggle",
                 "type": "boolean",
@@ -924,6 +937,19 @@
                 ]
             },
             {
+                "name": "Crafting Cache",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#PERFORMANCE#utCraftingCacheToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Crafting Cache` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `performance`.",
+                "dependencies":[
+                    {
+                        "modId": "fastbench"
+                    }
+                ]
+            },
+            {
                 "name": "Fast Leaf Decay",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#utLeafDecayToggle",
                 "type": "boolean",
@@ -1262,6 +1288,32 @@
                 ]
             },
             {
+                "name": "Burning Skeletons",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utBurningSkeletonsToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Burning Skeletons` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "mobsunscreen"
+                    }
+                ]
+            },
+            {
+                "name": "Burning Zombies",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utBurningZombiesToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Burning Zombies` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "mobsunscreen"
+                    }
+                ]
+            },
+            {
                 "name": "[1] Player Speed Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#PLAYER_SPEED#utPlayerSpeedToggle",
                 "type": "boolean",
@@ -1541,6 +1593,19 @@
                 ]
             },
             {
+                "name": "Broadcast Wither Death Sound",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#BROADCAST_SOUNDS#utBroadcastSoundWither",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
+                "dependencies":[
+                    {
+                        "modId": "silentboss"
+                    }
+                ]
+            },
+            {
                 "name": "[1] Smooth Scrolling Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#SMOOTH_SCROLLING#utSmoothScrollingToggle",
                 "type": "boolean",
@@ -1575,7 +1640,7 @@
                 "message":"The `Auto Jump Replacement` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
                 "dependencies":[
                     {
-                        "modId": "stepupfixer"
+                        "modId": "stepupfix"
                     }
                 ]
             },
