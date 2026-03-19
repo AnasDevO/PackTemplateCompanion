@@ -371,12 +371,12 @@
                 ]
             },
             {
-                "name": "AI Removal",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utAIRemovalToggle",
+                "name": "Watching AI Removal",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utWatchingAIRemovalToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"`AI Removal` and `AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "message":"`Watching AI Removal` and `Watching AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
                 "dependencies":[
                     {
                         "modId": "aiimprovements"
@@ -387,12 +387,12 @@
                 ]
             },
             {
-                "name": "AI Replacement",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utAIReplacementToggle",
+                "name": "Watching AI Replacement",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utWatchingAIReplacementToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"`AI Removal` and `AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "message":"`Watching AI Removal` and `Watching AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
                 "dependencies":[
                     {
                         "modId": "aiimprovements"
