@@ -106,7 +106,7 @@
     "status": "DEPRECATED",
     "verification": "HASHMATCH",
     "className": "",
-    "versionHash": "2da79fce72265eab0541e565636d389d",
+    "versionHash": "2da79fce72265eab0541e565636d389d ",
     "replacementModName": "Forgelin-Continuous",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/forgelin-continuous",
     "action": "REPLACE",

@@ -1694,6 +1694,8 @@
       {
         "modName": "Railway Depot Worker",
         "modId": "rdw",
+        "isClassLoaded": true,
+        "classpath": "tritusk.modpack.railcraft.patcher.EntryPoint",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/railway-depot-worker",
         "modDescription": "Fixes issues left in old versions of Railcraft."
       }
