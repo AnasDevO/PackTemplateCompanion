@@ -377,6 +377,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"`Watching AI Removal` and `Watching AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "aiimprovements"
@@ -393,6 +394,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"`Watching AI Removal` and `Watching AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "aiimprovements"
@@ -435,6 +437,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "badwithernocookiereloaded"
@@ -451,6 +454,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "badwithernocookiereloaded"
@@ -493,6 +497,7 @@
                 "value": "-1",
                 "shouldMatch":"true",
                 "message":"The `Sleeping Time` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `sleeping`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "bedfix"
@@ -509,6 +514,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Disable Sleeping` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `sleeping`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "bedsaynosleep"
@@ -554,6 +560,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The flat bedrock tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `world` → `flat bedrock`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "betterbedrock"
@@ -674,6 +681,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Glass Bottle Consumes Water Source` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `items`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "bottlefix"
@@ -758,6 +766,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The item entity tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `item entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "cie"
@@ -774,6 +783,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The attack cooldown tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `attack cooldown`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "classiccombat"
@@ -816,6 +826,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The music tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `music`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "continousmusic"
@@ -884,6 +895,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `LAN Server Properties` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "defaultlanport"
@@ -1082,6 +1094,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Fast Leaf Decay` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "fastleafdecay"
@@ -1114,6 +1127,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The finite water tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks` → `finite water`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "finite-fluid-control"
@@ -1169,6 +1183,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"`Frustum Culling` is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "frustumculling"
@@ -1198,6 +1213,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Max Player Health` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "givemebackmyhp"
@@ -1243,6 +1259,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Remove Recipe Book` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "hiddenrecipebook"
@@ -1288,6 +1305,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Mining Glitch` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `blocks`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "ihateghostblocks"
@@ -1304,6 +1322,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The toast control tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `toast control`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "ikwid"
@@ -1320,6 +1339,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The infinity enchantment tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `infinity`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "infwithmend"
@@ -1349,6 +1369,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The pickup notification tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `pickup notification`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "inventoryspam"
@@ -1391,6 +1412,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Mob Despawning Improvement` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "letmedespawn"
@@ -1459,6 +1481,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The player speed tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `player speed`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "movingquickly"
@@ -1488,6 +1511,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Entity NaN Values` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "nanfix"
