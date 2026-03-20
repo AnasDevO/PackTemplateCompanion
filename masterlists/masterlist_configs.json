@@ -490,6 +490,35 @@
                 ]
             },
             {
+                "name": "[1] Breakable Bedrock Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#BREAKABLE_BEDROCK#utBreakableBedrockToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The breakable bedrock tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks` → `breakable bedrock`.",
+                "dependencies":[
+                    {
+                        "modId": "bedrockbreaks"
+                    }
+                ]
+            },
+            {
+                "name": "[1] Flat Bedrock Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#WORLD#FLAT_BEDROCK#utFlatBedrockToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The flat bedrock tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `world` → `flat bedrock`.",
+                "dependencies":[
+                    {
+                        "modId": "betterbedrock"
+                    },
+                    {
+                        "modId": "betterbedrockgen"
+                    }
+                ]
+            },
+            {
                 "name": "Better Burning",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#BETTER_BURNING#utBBCookedToggle",
                 "type": "boolean",
