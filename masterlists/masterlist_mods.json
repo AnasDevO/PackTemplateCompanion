@@ -865,6 +865,18 @@
     "message": "Outdated and may cause crashes."
   },
   {
+    "modId": "forbiddenmagicre",
+    "status": "DEPRECATED",
+    "version": "",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": false,
+    "replacementModName": "",
+    "replacementModLink": "",
+    "action": "REMOVE",
+    "message": "Has conflicting content with certain addons and is no longer available on CurseForge and Modrinth. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) for most of the same content and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) for most of the mod integration."
+  },
+  {
     "modId": "forgelin",
     "status": "DEPRECATED",
     "version": "1.8.3",
@@ -1200,6 +1212,18 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "lostmagic",
+    "status": "DEPRECATED",
+    "version": "",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": false,
+    "replacementModName": "",
+    "replacementModLink": "",
+    "action": "REMOVE",
+    "message": "Has conflicting content with certain addons and is no longer available on CurseForge and Modrinth. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) for most of the same content and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) for most of the mod integration."
   },
   {
     "modId": "maxhealthfixer",
