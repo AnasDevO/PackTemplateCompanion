@@ -138,6 +138,18 @@
     ]
   },
   {
+    "modId": "librarianlib",
+    "status": "DEPRECATED",
+    "verification": "HASHMATCH",
+    "className": "",
+    "versionHash": "f614d7b176957417a936e9f41d2e7fe0",
+    "replacementModName": "LibrarianLib-Continuous",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/librarianlib-continuous",
+    "action": "REPLACE",
+    "message": "Incompatible with Forgelin-Continuous. Use #link:[LibrarianLib-Continuous](https://www.curseforge.com/minecraft/mc-mods/librarianlib-continuous). Revert if Wizardry animations break.",
+    "isCleanroom": false
+  },
+  {
     "modId": "mixinbootstrap",
     "status": "DEPRECATED",
     "verification": "CLASSLOADED",

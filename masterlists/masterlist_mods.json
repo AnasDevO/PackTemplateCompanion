@@ -1208,14 +1208,6 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
-    "modId": "librarianlib",
-    "status": "DEPRECATED",
-    "replacementModName": "LibrarianLib-Continuous",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/librarianlib-continuous",
-    "action": "REPLACE",
-    "message": "Incompatible with Forgelin-Continuous. Use #link:[LibrarianLib-Continuous](https://www.curseforge.com/minecraft/mc-mods/librarianlib-continuous). Revert if Wizardry animations break."
-  },
-  {
     "modId": "loginhpfix",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
