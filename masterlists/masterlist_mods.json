@@ -129,7 +129,15 @@
     "replacementModName": "Avaritia 1.1x Unofficial Extended Life",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/avaritia-1-1x-unofficial",
     "action": "REPLACE",
-    "message": "Original and Kedition forks are outdated. Use #link:[Avaritia 1.1x Unofficial Extended Life](https://www.curseforge.com/minecraft/mc-mods/avaritia-1-1x-unofficial)."
+    "message": "Outdated. Use #link:[Avaritia 1.1x Unofficial Extended Life](https://www.curseforge.com/minecraft/mc-mods/avaritia-1-1x-unofficial)."
+  },
+  {
+    "modId": "badwithernocookiereloaded",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation of the majority of functionality exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks). If you also want to silence other sounds, you can stick with Bad Wither No Cookie - Reloaded."
   },
   {
     "modId": "bannerpatch",
@@ -186,6 +194,14 @@
     "message": "Fix already included in Forge / Cleanroom Loader, does nothing when installed."
   },
   {
+    "modId": "bedrockbreaks",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "bedsaynosleep",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -194,12 +210,12 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
-    "modId": "bedrockbreaks",
+    "modId": "betteradvancements",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
-    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+    "message": "Better implementation of the majority of functionality exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks). If a feature you're using is not in Universal Tweaks, you can stick with Better Advancements."
   },
   {
     "modId": "betterbedrock",
@@ -360,6 +376,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/better-questing-unofficial",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Better Questing Unofficial](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "burnbabyburn",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "breedablekillerrabbit",
@@ -762,6 +786,14 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "f5fix",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "farsight",
     "status": "PROBLEMATIC",
     "action": "INFO",
@@ -987,6 +1019,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "horsefallfix",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "horsestandstill",
@@ -1242,7 +1282,7 @@
     "replacementModName": "",
     "replacementModLink": "",
     "action": "REMOVE",
-    "message": "Content integrated in #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) for most of the mod integration."
+    "message": "Content integrated in #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica)."
   },
   {
     "modId": "maxhealthfixer",
@@ -1516,6 +1556,14 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "norealmsbutton",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "norecipebook",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1681,6 +1729,14 @@
   },
   {
     "modId": "portaldupebegone",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "ppa",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",

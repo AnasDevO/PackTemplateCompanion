@@ -429,6 +429,38 @@
                 ]
             },
             {
+                "name": "Broadcast Ender Dragon Death Sound",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#BROADCAST_SOUNDS#utBroadcastSoundDragon",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
+                "dependencies":[
+                    {
+                        "modId": "badwithernocookiereloaded"
+                    },
+                    {
+                        "modId": "silentboss"
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast Wither Death Sound",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#BROADCAST_SOUNDS#utBroadcastSoundWither",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
+                "dependencies":[
+                    {
+                        "modId": "badwithernocookiereloaded"
+                    },
+                    {
+                        "modId": "silentboss"
+                    }
+                ]
+            },
+            {
                 "name": "Banner Bounding Box",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#BLOCKS#utBannerBoundingBoxToggle",
                 "type": "boolean",
@@ -499,6 +531,19 @@
                 "dependencies":[
                     {
                         "modId": "bedrockbreaks"
+                    }
+                ]
+            },
+            {
+                "name": "[1] Advancements Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#ADVANCEMENTS#utAdvancementsToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The advancement tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `advancements`.",
+                "dependencies":[
+                    {
+                        "modId": "betteradvancements"
                     }
                 ]
             },
@@ -597,6 +642,19 @@
                 ]
             },
             {
+                "name": "Block Fire",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utBlockFireToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Block Fire` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "blockfire"
+                    }
+                ]
+            },
+            {
                 "name": "[1] Block Overlay Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#BLOCKS#BLOCK_OVERLAY#utBlockOverlayToggle",
                 "type": "boolean",
@@ -664,6 +722,19 @@
                 "dependencies":[
                     {
                         "modId": "breedablekillerrabbit"
+                    }
+                ]
+            },
+            {
+                "name": "Burning Baby Zombies",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utBurningBabyZombiesToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Burning Baby Zombies` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "burnbabyburn"
                     }
                 ]
             },
@@ -953,6 +1024,19 @@
                 ]
             },
             {
+                "name": "Dimension Change Player States",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utDimensionChangeToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Dimension Change Player States` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "experiencebugfix"
+                    }
+                ]
+            },
+            {
                 "name": "Elytra Deployment & Landing",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utElytraDeploymentLandingToggle",
                 "type": "boolean",
@@ -962,6 +1046,19 @@
                 "dependencies":[
                     {
                         "modId": "eyltrafix"
+                    }
+                ]
+            },
+            {
+                "name": "Third Person Ignores Non-Solid Blocks",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utThirdPersonIgnoresNonSolidBlocks",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Third Person Ignores Non-Solid Blocks` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "f5fix"
                     }
                 ]
             },
@@ -1159,12 +1256,25 @@
                 ]
             },
             {
-                "name": "No Saddled Wandering",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#MISC#utSaddledWanderingToggle",
+                "name": "Horse Falling",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utHorseFallingToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The `No Saddled Wandering` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `misc`.",
+                "message":"The `Horse Falling` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "horsefallfix"
+                    }
+                ]
+            },
+            {
+                "name": "No Saddled Wandering",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utSaddledWanderingToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `No Saddled Wandering` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
                 "dependencies":[
                     {
                         "modId": "horsestandstill"
@@ -1189,11 +1299,11 @@
             },
             {
                 "name": "[5] Disable Tutorial Toasts",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#MISC#TOAST_CONTROL#utToastControlTutorialToggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#TOAST_CONTROL#utToastControlTutorialToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The toast control tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `misc` → `toast control`.",
+                "message":"The toast control tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `toast control`.",
                 "dependencies":[
                     {
                         "modId": "ikwid"
@@ -1492,6 +1602,19 @@
                 ]
             },
             {
+                "name": "Remove Realms Button",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utRealmsButtonToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Remove Realms Button` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "dependencies":[
+                    {
+                        "modId": "norealmsbutton"
+                    }
+                ]
+            },
+            {
                 "name": "[3] Overpowered",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utMendingOPToggle",
                 "type": "boolean",
@@ -1540,6 +1663,19 @@
                 "dependencies":[
                     {
                         "modId": "portaldupebegone"
+                    }
+                ]
+            },
+            {
+                "name": "Unsupported Pumpkin Placing",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#utUnsupportedPumpkinPlacing",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Unsupported Pumpkin Placing` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks`.",
+                "dependencies":[
+                    {
+                        "modId": "ppa"
                     }
                 ]
             },
@@ -1605,32 +1741,6 @@
                 "dependencies":[
                     {
                         "modId": "seedcopy"
-                    }
-                ]
-            },
-            {
-                "name": "Broadcast Ender Dragon Death Sound",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#BROADCAST_SOUNDS#utBroadcastSoundDragon",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
-                "dependencies":[
-                    {
-                        "modId": "silentboss"
-                    }
-                ]
-            },
-            {
-                "name": "Broadcast Wither Death Sound",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#BROADCAST_SOUNDS#utBroadcastSoundWither",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
-                "dependencies":[
-                    {
-                        "modId": "silentboss"
                     }
                 ]
             },
