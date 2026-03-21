@@ -2094,6 +2094,18 @@
     "message": "Duplicate features. Use #link:[Tinkers' Antique](https://www.curseforge.com/minecraft/mc-mods/tinkers-antique)."
   },
   {
+    "modId": "tinkersoredictcache",
+    "version": "",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "status": "DEPRECATED",
+    "replacementModName": "Tinkers' Antique",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-antique",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[Tinkers' Antique](https://www.curseforge.com/minecraft/mc-mods/tinkers-antique) which merges modern features and backports."
+  },
+  {
     "modId": "tips",
     "status": "DEPRECATED",
     "replacementModName": "AnotherTips",
