@@ -747,6 +747,19 @@
                 ]
             },
             {
+                "name": "Armor Swap",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utArmorSwap",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Armor Swap` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "dependencies":[
+                    {
+                        "modId": "chestelytraswap"
+                    }
+                ]
+            },
+            {
                 "name": "[1] Chicken Shedding",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#CHICKEN_SHEDDING#utChickenSheddingToggle",
                 "type": "boolean",
