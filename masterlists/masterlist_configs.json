@@ -371,52 +371,34 @@
                 ]
             },
             {
-                "name": "AI Removal",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utAIRemovalToggle",
+                "name": "Watching AI Removal",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utWatchingAIRemovalToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"`AI Removal` and `AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "message":"`Watching AI Removal` and `Watching AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "aiimprovements"
-                    }
-                ]
-            },
-            {
-                "name": "AI Replacement",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utAIReplacementToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"`AI Removal` and `AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
-                "dependencies":[
-                    {
-                        "modId": "aiimprovements"
-                    }
-                ]
-            },
-            {
-                "name": "AI Removal",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utAIRemovalToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"`AI Removal` and `AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
-                "dependencies":[
+                    },
                     {
                         "modId": "aireducer"
                     }
                 ]
             },
             {
-                "name": "AI Replacement",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utAIReplacementToggle",
+                "name": "Watching AI Replacement",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utWatchingAIReplacementToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"`AI Removal` and `AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "message":"`Watching AI Removal` and `Watching AI Replacement` are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
+                    {
+                        "modId": "aiimprovements"
+                    },
                     {
                         "modId": "aireducer"
                     }
@@ -445,6 +427,40 @@
                 "dependencies":[
                     {
                         "modId": "attributefix"
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast Ender Dragon Death Sound",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#BROADCAST_SOUNDS#utBroadcastSoundDragon",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
+                "dependencyMode": "OR",
+                "dependencies":[
+                    {
+                        "modId": "badwithernocookiereloaded"
+                    },
+                    {
+                        "modId": "silentboss"
+                    }
+                ]
+            },
+            {
+                "name": "Broadcast Wither Death Sound",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#BROADCAST_SOUNDS#utBroadcastSoundWither",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
+                "dependencyMode": "OR",
+                "dependencies":[
+                    {
+                        "modId": "badwithernocookiereloaded"
+                    },
+                    {
+                        "modId": "silentboss"
                     }
                 ]
             },
@@ -481,9 +497,13 @@
                 "value": "-1",
                 "shouldMatch":"true",
                 "message":"The `Sleeping Time` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `sleeping`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "bedfix"
+                    },
+                    {
+                        "modId": "sleepsooner"
                     }
                 ]
             },
@@ -494,9 +514,59 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Disable Sleeping` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `sleeping`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "bedsaynosleep"
+                    },
+                    {
+                        "modId": "insomniac"
+                    },
+                    {
+                        "modId": "nodoze"
+                    }
+                ]
+            },
+            {
+                "name": "[1] Breakable Bedrock Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#BREAKABLE_BEDROCK#utBreakableBedrockToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The breakable bedrock tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks` → `breakable bedrock`.",
+                "dependencies":[
+                    {
+                        "modId": "bedrockbreaks"
+                    }
+                ]
+            },
+            {
+                "name": "[1] Advancements Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#ADVANCEMENTS#utAdvancementsToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The advancement tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `advancements`.",
+                "dependencies":[
+                    {
+                        "modId": "betteradvancements"
+                    }
+                ]
+            },
+            {
+                "name": "[1] Flat Bedrock Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#WORLD#FLAT_BEDROCK#utFlatBedrockToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The flat bedrock tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `world` → `flat bedrock`.",
+                "dependencyMode": "OR",
+                "dependencies":[
+                    {
+                        "modId": "betterbedrock"
+                    },
+                    {
+                        "modId": "betterbedrockgen"
                     }
                 ]
             },
@@ -553,6 +623,19 @@
                 ]
             },
             {
+                "name": "Packet Size",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#MISC#utPacketSize",
+                "type": "int",
+                "value": "0x1000000",
+                "shouldMatch":"true",
+                "message":"The `Packet Size` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `misc`.",
+                "dependencies":[
+                    {
+                        "modId": "biggerpacketsplz"
+                    }
+                ]
+            },
+            {
                 "name": "[1] Block Dispenser Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#BLOCK_DISPENSER#utBlockDispenserToggle",
                 "type": "boolean",
@@ -562,6 +645,19 @@
                 "dependencies":[
                     {
                         "modId": "blockdispenser"
+                    }
+                ]
+            },
+            {
+                "name": "Block Fire",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utBlockFireToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Block Fire` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "blockfire"
                     }
                 ]
             },
@@ -585,9 +681,16 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Glass Bottle Consumes Water Source` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `items`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "bottlefix"
+                    },
+                    {
+                        "modId": "sourcebottles"
+                    },
+                    {
+                        "modId": "thirstybottles"
                     }
                 ]
             },
@@ -631,6 +734,32 @@
                 ]
             },
             {
+                "name": "Burning Baby Zombies",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utBurningBabyZombiesToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Burning Baby Zombies` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "burnbabyburn"
+                    }
+                ]
+            },
+            {
+                "name": "Armor Swap",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utArmorSwap",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Armor Swap` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "dependencies":[
+                    {
+                        "modId": "chestelytraswap"
+                    }
+                ]
+            },
+            {
                 "name": "[1] Chicken Shedding",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#CHICKEN_SHEDDING#utChickenSheddingToggle",
                 "type": "boolean",
@@ -650,9 +779,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The item entity tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `item entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "cie"
+                    },
+                    {
+                        "modId": "configurabledespawntimer"
                     }
                 ]
             },
@@ -663,9 +796,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The attack cooldown tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `attack cooldown`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "classiccombat"
+                    },
+                    {
+                        "modId": "oldcombat"
                     }
                 ]
             },
@@ -696,25 +833,13 @@
                 ]
             },
             {
-                "name": "[01] Item Entities Toggle",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ITEMS#ITEM_ENTITIES#utItemEntitiesToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The item entity tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `item entities`.",
-                "dependencies":[
-                    {
-                        "modId": "configurabledespawntimer"
-                    }
-                ]
-            },
-            {
                 "name": "[01] Music Control Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#MUSIC#utMusicControlToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The music tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `music`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "continousmusic"
@@ -783,9 +908,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `LAN Server Properties` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "defaultlanport"
+                    },
+                    {
+                        "modId": "lanserverproperties"
                     }
                 ]
             },
@@ -812,6 +941,19 @@
                 "dependencies":[
                     {
                         "modId": "diethopper"
+                    }
+                ]
+            },
+            {
+                "name": "Difficulty Consistency",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#WORLD#utDifficultyConsistencyToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Difficulty Consistency` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world`.",
+                "dependencies":[
+                    {
+                        "modId": "difficultypatch"
                     }
                 ]
             },
@@ -907,6 +1049,19 @@
                 ]
             },
             {
+                "name": "Dimension Change Player States",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utDimensionChangeToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Dimension Change Player States` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "experiencebugfix"
+                    }
+                ]
+            },
+            {
                 "name": "Elytra Deployment & Landing",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utElytraDeploymentLandingToggle",
                 "type": "boolean",
@@ -920,15 +1075,48 @@
                 ]
             },
             {
+                "name": "Third Person Ignores Non-Solid Blocks",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utThirdPersonIgnoresNonSolidBlocks",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Third Person Ignores Non-Solid Blocks` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "f5fix"
+                    }
+                ]
+            },
+            {
+                "name": "Crafting Cache",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#PERFORMANCE#utCraftingCacheToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Crafting Cache` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `performance`.",
+                "dependencies":[
+                    {
+                        "modId": "fastbench"
+                    }
+                ]
+            },
+            {
                 "name": "Fast Leaf Decay",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#utLeafDecayToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Fast Leaf Decay` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "fastleafdecay"
+                    },
+                    {
+                        "modId": "leafdecay"
+                    },
+                    {
+                        "modId": "quickleafdecay"
                     }
                 ]
             },
@@ -952,9 +1140,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The finite water tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks` → `finite water`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "finite-fluid-control"
+                    },
+                    {
+                        "modId": "watercontrolextreme"
                     }
                 ]
             },
@@ -1004,9 +1196,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"`Frustum Culling` is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "frustumculling"
+                    },
+                    {
+                        "modId": "laglessmod"
                     }
                 ]
             },
@@ -1030,9 +1226,16 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Max Player Health` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "givemebackmyhp"
+                    },
+                    {
+                        "modId": "loginhpfix"
+                    },
+                    {
+                        "modId": "maxhealthfixer"
                     }
                 ]
             },
@@ -1069,19 +1272,39 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Remove Recipe Book` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "hiddenrecipebook"
+                    },
+                    {
+                        "modId": "norecipebook"
+                    },
+                    {
+                        "modId": "noprecipebook"
+                    }
+                ]
+            },
+            {
+                "name": "Horse Falling",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utHorseFallingToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Horse Falling` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "horsefallfix"
                     }
                 ]
             },
             {
                 "name": "No Saddled Wandering",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#MISC#utSaddledWanderingToggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utSaddledWanderingToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The `No Saddled Wandering` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `misc`.",
+                "message":"The `No Saddled Wandering` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
                 "dependencies":[
                     {
                         "modId": "horsestandstill"
@@ -1095,6 +1318,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Mining Glitch` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `blocks`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "ihateghostblocks"
@@ -1106,11 +1330,12 @@
             },
             {
                 "name": "[5] Disable Tutorial Toasts",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#MISC#TOAST_CONTROL#utToastControlTutorialToggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#TOAST_CONTROL#utToastControlTutorialToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The toast control tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `misc` → `toast control`.",
+                "message":"The toast control tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `toast control`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "ikwid"
@@ -1127,9 +1352,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The infinity enchantment tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `infinity`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "infwithmend"
+                    },
+                    {
+                        "modId": "noexpensive"
                     }
                 ]
             },
@@ -1147,28 +1376,19 @@
                 ]
             },
             {
-                "name": "Disable Sleeping",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#SLEEPING#utDisableSleepingToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `Disable Sleeping` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `sleeping`.",
-                "dependencies":[
-                    {
-                        "modId": "insomniac"
-                    }
-                ]
-            },
-            {
                 "name": "[01] Pickup Notification Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#PICKUP_NOTIFICATION#utPickupNotificationToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The pickup notification tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `pickup notification`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "inventoryspam"
+                    },
+                    {
+                        "modId": "pickupnotifier"
                     }
                 ]
             },
@@ -1199,80 +1419,19 @@
                 ]
             },
             {
-                "name": "Frustum Culling",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#WORLD#utFrustumCullingToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"`Frustum Culling` is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world`.",
-                "dependencies":[
-                    {
-                        "modId": "laglessmod"
-                    }
-                ]
-            },
-            {
-                "name": "LAN Server Properties",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utLANServerProperties",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `LAN Server Properties` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
-                "dependencies":[
-                    {
-                        "modId": "lanserverproperties"
-                    }
-                ]
-            },
-            {
-                "name": "Fast Leaf Decay",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#utLeafDecayToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `Fast Leaf Decay` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks`.",
-                "dependencies":[
-                    {
-                        "modId": "leafdecay"
-                    }
-                ]
-            },
-            {
                 "name": "Mob Despawning Improvement",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utMobDespawningToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Mob Despawning Improvement` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "letmedespawn"
-                    }
-                ]
-            },
-            {
-                "name": "Max Player Health",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utMaxHealthToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `Max Player Health` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
-                "dependencies":[
+                    },
                     {
-                        "modId": "loginhpfix"
-                    }
-                ]
-            },
-            {
-                "name": "Max Player Health",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utMaxHealthToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `Max Player Health` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
-                "dependencies":[
-                    {
-                        "modId": "maxhealthfixer"
+                        "modId": "mobpc"
                     }
                 ]
             },
@@ -1303,15 +1462,28 @@
                 ]
             },
             {
-                "name": "Mob Despawning Improvement",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utMobDespawningToggle",
+                "name": "Burning Skeletons",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utBurningSkeletonsToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The `Mob Despawning Improvement` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "message":"The `Burning Skeletons` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
                 "dependencies":[
                     {
-                        "modId": "mobpc"
+                        "modId": "mobsunscreen"
+                    }
+                ]
+            },
+            {
+                "name": "Burning Zombies",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#utBurningZombiesToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Burning Zombies` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
+                "dependencies":[
+                    {
+                        "modId": "mobsunscreen"
                     }
                 ]
             },
@@ -1322,20 +1494,11 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The player speed tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `player speed`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "movingquickly"
-                    }
-                ]
-            },
-            {
-                "name": "[1] Player Speed Toggle",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#PLAYER_SPEED#utPlayerSpeedToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The player speed tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `player speed`.",
-                "dependencies":[
+                    },
                     {
                         "modId": "mtqfix"
                     }
@@ -1361,9 +1524,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Entity NaN Values` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "nanfix"
+                    },
+                    {
+                        "modId": "nanpolice"
                     }
                 ]
             },
@@ -1420,32 +1587,6 @@
                 ]
             },
             {
-                "name": "Disable Sleeping",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#SLEEPING#utDisableSleepingToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `Disable Sleeping` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `sleeping`.",
-                "dependencies":[
-                    {
-                        "modId": "nodoze"
-                    }
-                ]
-            },
-            {
-                "name": "[2] Infinity Conflict",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ITEMS#INFINITY#utInfinityEnchantmentConflicts",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The infinity enchantment tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `infinity`.",
-                "dependencies":[
-                    {
-                        "modId": "noexpensive"
-                    }
-                ]
-            },
-            {
                 "name": "Anvil XP Level Cap",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#ANVIL#utAnvilXPLevelCap",
                 "type": "int",
@@ -1485,19 +1626,6 @@
                 ]
             },
             {
-                "name": "No Night Vision Flash",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utNightVisionFlashToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `No Night Vision Flash` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
-                "dependencies":[
-                    {
-                        "modId": "nonvflash"
-                    }
-                ]
-            },
-            {
                 "name": "No Potion Shift",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utPotionShiftToggle",
                 "type": "boolean",
@@ -1511,41 +1639,15 @@
                 ]
             },
             {
-                "name": "Remove Recipe Book",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utRecipeBookToggle",
+                "name": "Remove Realms Button",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utRealmsButtonToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The `Remove Recipe Book` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "message":"The `Remove Realms Button` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
                 "dependencies":[
                     {
-                        "modId": "norecipebook"
-                    }
-                ]
-            },
-            {
-                "name": "Remove Recipe Book",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utRecipeBookToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `Remove Recipe Book` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
-                "dependencies":[
-                    {
-                        "modId": "noprecipebook"
-                    }
-                ]
-            },
-            {
-                "name": "[01] No Attack Cooldown Toggle",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ITEMS#ATTACK_COOLDOWN#utAttackCooldownToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The attack cooldown tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `attack cooldown`.",
-                "dependencies":[
-                    {
-                        "modId": "oldcombat"
+                        "modId": "norealmsbutton"
                     }
                 ]
             },
@@ -1589,19 +1691,6 @@
                 ]
             },
             {
-                "name": "[01] Pickup Notification Toggle",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#PICKUP_NOTIFICATION#utPickupNotificationToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The pickup notification tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `pickup notification`.",
-                "dependencies":[
-                    {
-                        "modId": "pickupnotifier"
-                    }
-                ]
-            },
-            {
                 "name": "Portal Traveling Dupe",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#WORLD#utPortalTravelingDupeToggle",
                 "type": "boolean",
@@ -1615,15 +1704,15 @@
                 ]
             },
             {
-                "name": "Fast Leaf Decay",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#utLeafDecayToggle",
+                "name": "Unsupported Pumpkin Placing",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#utUnsupportedPumpkinPlacing",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The `Fast Leaf Decay` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks`.",
+                "message":"The `Unsupported Pumpkin Placing` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks`.",
                 "dependencies":[
                     {
-                        "modId": "quickleafdecay"
+                        "modId": "ppa"
                     }
                 ]
             },
@@ -1693,32 +1782,6 @@
                 ]
             },
             {
-                "name": "Broadcast Ender Dragon Death Sound",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#BROADCAST_SOUNDS#utBroadcastSoundDragon",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The broadcast sound tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `broadcast sounds`.",
-                "dependencies":[
-                    {
-                        "modId": "silentboss"
-                    }
-                ]
-            },
-            {
-                "name": "Sleeping Time",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#SLEEPING#utSleepingTime",
-                "type": "boolean",
-                "value": "-1",
-                "shouldMatch":"true",
-                "message":"The `Sleeping Time` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `sleeping`.",
-                "dependencies":[
-                    {
-                        "modId": "sleepsooner"
-                    }
-                ]
-            },
-            {
                 "name": "[1] Smooth Scrolling Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#SMOOTH_SCROLLING#utSmoothScrollingToggle",
                 "type": "boolean",
@@ -1728,19 +1791,6 @@
                 "dependencies":[
                     {
                         "modId": "smooth-scrolling-everywhere"
-                    }
-                ]
-            },
-            {
-                "name": "Glass Bottle Consumes Water Source",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ITEMS#utGlassBottlesConsumeWaterSource",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `Glass Bottle Consumes Water Source` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `items`.",
-                "dependencies":[
-                    {
-                        "modId": "sourcebottles"
                     }
                 ]
             },
@@ -1766,7 +1816,7 @@
                 "message":"The `Auto Jump Replacement` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities`.",
                 "dependencies":[
                     {
-                        "modId": "stepupfixer"
+                        "modId": "stepupfix"
                     }
                 ]
             },
@@ -1793,19 +1843,6 @@
                 "dependencies":[
                     {
                         "modId": "superhot"
-                    }
-                ]
-            },
-            {
-                "name": "Glass Bottle Consumes Water Source",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ITEMS#utGlassBottlesConsumeWaterSource",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The `Glass Bottle Consumes Water Source` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `items`.",
-                "dependencies":[
-                    {
-                        "modId": "thirstybottles"
                     }
                 ]
             },
@@ -1897,19 +1934,6 @@
                 "dependencies":[
                     {
                         "modId": "voidfog"
-                    }
-                ]
-            },
-            {
-                "name": "[1] Finite Water Toggle",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#BLOCKS#FINITE_WATER#utFiniteWaterToggle",
-                "type": "boolean",
-                "value": "false",
-                "shouldMatch":"true",
-                "message":"The finite water tweaks are located in `Universal Tweaks - Bugfixes.cfg` → `general` → `blocks` → `finite water`.",
-                "dependencies":[
-                    {
-                        "modId": "watercontrolextreme"
                     }
                 ]
             }
