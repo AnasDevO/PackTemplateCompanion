@@ -2211,6 +2211,12 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "vanillafix",
+    "status": "PROBLEMATIC",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[LoliASM](https://www.curseforge.com/minecraft/mc-mods/lolasm) and #link:[VintageFix](https://www.curseforge.com/minecraft/mc-mods/vintagefix) instead."
+  },
+  {
     "modId": "villagermantlefix",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
