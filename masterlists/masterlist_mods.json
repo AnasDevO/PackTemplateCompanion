@@ -524,6 +524,18 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "crimsonrevelations",
+    "version": "0.8",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "status": "DEPRECATED",
+    "replacementModName": "New Crimson Revelations",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations",
+    "action": "REPLACE",
+    "message": "Deprecated. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations)."
+  },
+  {
     "modId": "ctm",
     "status": "PROBLEMATIC",
     "version": "MC1.12.2-1.0.2.31",
