@@ -2034,6 +2034,18 @@
     "message": "Outdated and may cause crashes."
   },
   {
+    "modId": "soulshardsrespawn",
+    "version": "1.12.2-1.1.1-13",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "status": "DEPRECATED",
+    "replacementModName": "Soul Shards Respawn Patched",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/soul-shards-respawn-patched",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[Soul Shards Respawn Patched](https://www.curseforge.com/minecraft/mc-mods/soul-shards-respawn-patched)."
+  },
+  {
     "modId": "soundfilters",
     "status": "DEPRECATED",
     "replacementModName": "Sound Physics Remixin",
