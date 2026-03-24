@@ -662,6 +662,14 @@
     "message": "Outdated and may cause crashes."
   },
   {
+    "modId": "dupefixproject",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "UPGRADE",
+    "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "dynamictrees",
     "version": "1.12.2-0.13.4",
     "isMinVersion": true,
