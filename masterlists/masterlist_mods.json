@@ -629,6 +629,18 @@
     "message": "#link:[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump) already has a better implementation of this that supports all tile entities."
   },
   {
+    "modId": "dmonsters",
+    "version": "1.12.2-2.1",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "status": "DEPRECATED",
+    "replacementModName": "Deadly Monsters Patched",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/deadly-monsters-patched",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[Deadly Monsters Patched](https://www.curseforge.com/minecraft/mc-mods/deadly-monsters-patched)."
+  },
+  {
     "modId": "drawerfps",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
