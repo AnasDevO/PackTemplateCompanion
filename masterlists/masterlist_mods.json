@@ -376,6 +376,19 @@
     "message": "MCreator mod with numerous bugs in 1.12.2. Use an alternative biome mod."
   },
   {
+    "modId": "cfm",
+    "version": "6.3.0",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": false,
+    "status": "DEPRECATED",
+    "replacementModName": "MrCrayfish's Furniture Mod: Refurbished",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
+    "action": "REPLACE",
+    "message": "Deprecated. Use #link:[MrCrayfish's Furniture Mod: Refurbished](https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture).",
+    "isCleanroom": true
+  },
+  {
     "modId": "charset",
     "version": "0.5.6.6",
     "isMinVersion": false,
