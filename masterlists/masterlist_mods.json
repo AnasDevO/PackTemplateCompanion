@@ -1436,6 +1436,18 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "mutantbeasts",
+    "version": "1.12.2-1.0.2",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "status": "DEPRECATED",
+    "replacementModName": "Mutant Creatures Legacy",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/mutant-creatures-legacy",
+    "action": "REPLACE",
+    "message": "Deprecated. Use #link:[Mutant Creatures Legacy](https://www.curseforge.com/minecraft/mc-mods/mutant-creatures-legacy)."
+  },
+  {
     "modId": "muteuselesslogs",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
