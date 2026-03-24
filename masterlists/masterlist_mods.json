@@ -1886,6 +1886,18 @@
     "message": "Outdated and may cause crashes."
   },
   {
+    "modId": "rpgloot",
+    "status": "DEPRECATED",
+    "version": "1.0",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "replacementModName": "RPGLoot Patched",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched",
+    "action": "REPLACE",
+    "message": "Deprecated. Use #link:[RPGLoot Patched](https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched)."
+  },
+  {
     "modId": "redirectionor",
     "status": "DEPRECATED",
     "action": "REMOVE",
