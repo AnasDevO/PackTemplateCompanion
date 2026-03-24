@@ -1492,6 +1492,18 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "naturesaura",
+    "version": "18.1",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "status": "DEPRECATED",
+    "replacementModName": "Nature's Aura Simplified",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/natures-aura-simplified",
+    "action": "REPLACE",
+    "message": "Outdated and impacts performance. Use #link:[Nature's Aura Simplified](https://www.curseforge.com/minecraft/mc-mods/natures-aura-simplified)."
+  },
+  {
     "modId": "neonium",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
