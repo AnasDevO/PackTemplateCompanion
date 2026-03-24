@@ -2248,6 +2248,18 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "tinkersarsenal",
+    "version": "0.7.0",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "status": "DEPRECATED",
+    "replacementModName": "Tinkers' Arsenal reloaded",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-arsenal-reloaded",
+    "action": "REPLACE",
+    "message": "Deprecated. Use #link:[Tinkers' Arsenal reloaded](https://www.curseforge.com/minecraft/mc-mods/tinkers-arsenal-reloaded)."
+  },
+  {
     "modId": "tinkersjei",
     "status": "DEPRECATED",
     "replacementModName": "Tinkers' Antique",
