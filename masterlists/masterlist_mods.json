@@ -1916,6 +1916,14 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "searedladder",
+    "status": "DEPRECATED",
+    "replacementModName": "Tinker's Antique",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-antique",
+    "action": "REPLACE",
+    "message": "Merged in #link:[Tinker's Antique](https://www.curseforge.com/minecraft/mc-mods/tinkers-antique)."
+  },
+  {
     "modId": "seedcopy",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
