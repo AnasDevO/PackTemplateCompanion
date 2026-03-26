@@ -2446,9 +2446,14 @@
   },
   {
     "modId": "tropicraft",
+    "version": "7.1.9.123",
+    "isMinVersion": false,
+    "isMaxVersion": true,
     "status": "PROBLEMATIC",
-    "action": "INFO",
-    "message": "Has numerous issues and memory leaks. Not recommended for use."
+    "replacementModName": "Tropicraft Legacy",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tropicraft-legacy",
+    "action": "REPLACE",
+    "message": "Has numerous issues and memory leaks. Use #link:[Tropicraft Legacy](https://www.curseforge.com/minecraft/mc-mods/tropicraft-legacy).",
   },
   {
     "modId": "twilightforest",
@@ -2503,6 +2508,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "vanillafix",
+    "status": "DEPRECATED",
+    "action": "REPLACE",
+    "message": "Merged and improved in #link:[CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm) and #link:[VintageFix](https://www.curseforge.com/minecraft/mc-mods/vintagefix)."
   },
   {
     "modId": "villagermantlefix",
