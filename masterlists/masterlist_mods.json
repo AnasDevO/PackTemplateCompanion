@@ -744,7 +744,7 @@
     "replacementModName": "Universal Tweaks",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "UPGRADE",
-    "message": "Crashes with MixinBooter. Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+    "message": "Crashes with MixinBooter. Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks) and modern forks of the affected mods."
   },
   {
     "modId": "dynamictrees",
