@@ -108,15 +108,17 @@ Entry format used to locate problematic configuration values.
 }
 ```
 
-| Key            | Required | Description                                                                                                                   |
-|:---------------|:--------:|:------------------------------------------------------------------------------------------------------------------------------|
-| `name`         | Required | The name of the configuration setting found in the config file.                                                               |
-| `field`        | Required | The field used for this configuration value. Format:<ul><li>`classpath#staticField`<li>`classpath#staticField#instancedField` |
-| `type`         | Required | The configuration field object type.<ul><li>`boolean`<li>`int`<li>`double`<li>`float`<li>`string`                             |
-| `value`        | Required | The expected value that will cause problematic interactions.                                                                  |
-| `shouldMatch`  | Required | If the field value should match the `value` exactly.                                                                          |
-| `message`      | Required | A short message describing issues caused by this config setting.                                                              |
-| `dependencies` | Optional | A list of required mod dependencies for this setting to cause issues.                                                         |
+| Key              | Required | Description                                                                                                                   |
+|:-----------------|:--------:|:------------------------------------------------------------------------------------------------------------------------------|
+| `name`           | Required | The name of the configuration setting found in the config file.                                                               |
+| `field`          | Required | The field used for this configuration value. Format:<ul><li>`classpath#staticField`<li>`classpath#staticField#instancedField` |
+| `type`           | Required | The configuration field object type.<ul><li>`boolean`<li>`int`<li>`double`<li>`float`<li>`string`                             |
+| `value`          | Required | The expected value that will cause problematic interactions.                                                                  |
+| `shouldMatch`    | Required | If the field value should match the `value` exactly.                                                                          |
+| `message`        | Required | A short message describing issues caused by this config setting.                                                              |
+| `dependencyMode` | Optional | If the dependency list should be treated with `OR` or `AND` logic                                                             |
+| `dependencies`   | Optional | A list of required mod dependencies for this setting to cause issues.                                                         |
+| `dependencyMode` | Optional | If the dependency list should be treated with `OR` or `AND` logic                                                             |
 
 
 
