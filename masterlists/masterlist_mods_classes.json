@@ -63,6 +63,19 @@
     "patchList": []
   },
   {
+    "modId": "classicbar",
+    "status": "DEPRECATED",
+    "className": "",
+    "verification": "HASHMATCH",
+    "versionHash": "f06710fe5a77993720202101f3319764",
+    "replacementModName": "Classic Bar Legacy",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/classic-bar-legacy",
+    "action": "REPLACE",
+    "patchList": [],
+    "message": "Deprecated. Use #link:[Classic Bar Legacy](https://www.curseforge.com/minecraft/mc-mods/classic-bar-legacy).",
+    "isCleanroom": false
+  },
+  {
     "modId": "codechickenlib",
     "status": "DEPRECATED",
     "className": "codechicken.lib.Reference",
