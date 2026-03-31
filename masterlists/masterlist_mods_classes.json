@@ -131,6 +131,20 @@
     "isCleanroom": true
   },
   {
+    "modId": "essential",
+    "status": "PROBLEMATIC",
+    "verification": "CLASSLOADED",
+    "className": "gg.essential.Essential",
+    "versionHash": "",
+    "action": "REPLACE",
+    "replacementModName": "E4MC Retro",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/e4mc-retro",
+    "replacementModVersion": "",
+    "message": "Use #link:[E4MC Retro](https://www.curseforge.com/minecraft/mc-mods/e4mc-retro) for a Proxy replacement, or #link:[Lan UPNP](https://www.curseforge.com/minecraft/mc-mods/lan-upnp) for a non proxy replacement.",
+    "patchList": [],
+    "isCleanroom": false
+  },
+  {
     "modId": "forgelin",
     "status": "DEPRECATED",
     "verification": "HASHMATCH",
