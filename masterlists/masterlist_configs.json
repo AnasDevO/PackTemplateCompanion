@@ -1151,12 +1151,12 @@
                 ]
             },
             {
-                "name": "Double Consumption",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utDoubleConsumptionToggle",
+                "name": "Double Food Consumption",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utDoubleFoodConsumptionToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The `Double Consumption` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "message":"The `Double Food Consumption` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
                 "dependencies":[
                     {
                         "modId": "foodfix"
