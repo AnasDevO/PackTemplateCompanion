@@ -1235,7 +1235,7 @@
     "message": "Has several dupe issues and can void all bag contents on servers."
   },
   {
-    "modId": "je-characters",
+    "modId": "jecharacters",
     "status": "DEPRECATED",
     "replacementModName": "Had Enough Characters",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/had-enough-characters",
