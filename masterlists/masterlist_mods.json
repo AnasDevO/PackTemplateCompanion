@@ -1487,6 +1487,18 @@
     "message": "Outdated and may cause crashes."
   },
   {
+    "modId": "modularmachinery",
+    "status": "DEPRECATED",
+    "version": "1.11.1",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "replacementModName": "Modular Machinery: Community Edition",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/modularmachinery-community-edition",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[Modular Machinery: Community Edition](https://www.curseforge.com/minecraft/mc-mods/modularmachinery-community-edition)."
+  },
+  {
     "modId": "mousetweaks",
     "status": "PROBLEMATIC",
     "version": "2.10.1",
