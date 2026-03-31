@@ -315,6 +315,17 @@
     "isCleanroom": true
   },
   {
+    "modId": "surge",
+    "status": "PROBLEMATIC",
+    "verification": "CLASSLOADED",
+    "className": "net.darkhax.surge.Surge",
+    "versionHash": "",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better Implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "tconstruct",
     "status": "DEPRECATED",
     "verification": "HASHMATCH",
