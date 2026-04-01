@@ -322,7 +322,7 @@
     "replacementModName": "Binnie's Mods Patched",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/binnies-mods-patched",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[Binnie's Mods Patched](https://www.curseforge.com/minecraft/mc-mods/binnies-mods-patched)."
+    "message": "Outdated. Use #link:[Binnie's Mods Patched](https://www.curseforge.com/minecraft/mc-mods/binnies-mods-patched)."
   },
   {
     "modId": "bithop",
@@ -334,7 +334,7 @@
     "replacementModName": "QBithop",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/qbithop",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[QBithop](https://www.curseforge.com/minecraft/mc-mods/qbithop)."
+    "message": "Outdated. Use #link:[QBithop](https://www.curseforge.com/minecraft/mc-mods/qbithop)."
   },
   {
     "modId": "blockcraftery",
@@ -445,7 +445,7 @@
     "replacementModName": "MrCrayfish's Furniture Mod: Refurbished",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[MrCrayfish's Furniture Mod: Refurbished](https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture).",
+    "message": "Outdated. Use #link:[MrCrayfish's Furniture Mod: Refurbished](https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture).",
     "isCleanroom": true
   },
   {
@@ -614,7 +614,7 @@
     "replacementModName": "New Crimson Revelations",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations)."
+    "message": "Outdated. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations)."
   },
   {
     "modId": "ctm",
@@ -788,7 +788,7 @@
     "replacementModName": "Earthworks Unofficial Extended Life",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/earthworks-extended-life",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[Earthworks Unofficial Extended Life](https://www.curseforge.com/minecraft/mc-mods/earthworks-extended-life)."
+    "message": "Outdated. Use #link:[Earthworks Unofficial Extended Life](https://www.curseforge.com/minecraft/mc-mods/earthworks-extended-life)."
   },
   {
     "modId": "easybreeding",
@@ -1557,7 +1557,7 @@
     "replacementModName": "Mutant Creatures Legacy",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/mutant-creatures-legacy",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[Mutant Creatures Legacy](https://www.curseforge.com/minecraft/mc-mods/mutant-creatures-legacy)."
+    "message": "Outdated. Use #link:[Mutant Creatures Legacy](https://www.curseforge.com/minecraft/mc-mods/mutant-creatures-legacy)."
   },
   {
     "modId": "muteuselesslogs",
@@ -1881,7 +1881,7 @@
     "replacementModName": "Pillar Patched",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/pillar-patched",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[Pillar Patched](https://www.curseforge.com/minecraft/mc-mods/pillar-patched)."
+    "message": "Outdated. Use #link:[Pillar Patched](https://www.curseforge.com/minecraft/mc-mods/pillar-patched)."
   },
   {
     "modId": "portaldupebegone",
@@ -2031,7 +2031,7 @@
     "replacementModName": "RPGLoot Patched",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[RPGLoot Patched](https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched)."
+    "message": "Outdated. Use #link:[RPGLoot Patched](https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched)."
   },
   {
     "modId": "redirectionor",
@@ -2393,7 +2393,7 @@
     "replacementModName": "Tinkers' Arsenal reloaded",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-arsenal-reloaded",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[Tinkers' Arsenal reloaded](https://www.curseforge.com/minecraft/mc-mods/tinkers-arsenal-reloaded)."
+    "message": "Outdated. Use #link:[Tinkers' Arsenal reloaded](https://www.curseforge.com/minecraft/mc-mods/tinkers-arsenal-reloaded)."
   },
   {
     "modId": "tinkersjei",

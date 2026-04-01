@@ -140,7 +140,7 @@
     "replacementModName": "E4MC Retro",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/e4mc-retro",
     "replacementModVersion": "",
-    "message": "Use #link:[E4MC Retro](https://www.curseforge.com/minecraft/mc-mods/e4mc-retro) for a Proxy replacement, or #link:[Lan UPNP](https://www.curseforge.com/minecraft/mc-mods/lan-upnp) for a non proxy replacement.",
+    "message": "Not recommended. Use #link:[E4MC Retro](https://www.curseforge.com/minecraft/mc-mods/e4mc-retro) for a Proxy replacement, or #link:[Lan UPNP](https://www.curseforge.com/minecraft/mc-mods/lan-upnp) for a non proxy replacement.",
     "patchList": [],
     "isCleanroom": false
   },
@@ -287,7 +287,7 @@
     "replacementModName": "Quantum Things",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/quantum-things",
     "action": "REPLACE",
-    "message": "Deprecated. Use #link:[Quantum Things](https://www.curseforge.com/minecraft/mc-mods/quantum-things)."
+    "message": "Outdated. Use #link:[Quantum Things](https://www.curseforge.com/minecraft/mc-mods/quantum-things)."
   },
   {
     "modId": "soot",
@@ -323,7 +323,7 @@
     "replacementModName": "Universal Tweaks",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
-    "message": "Better Implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+    "message": "Uses deprecated methods and does not improve performance at all. Use #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks) for salvaged features."
   },
   {
     "modId": "tconstruct",
