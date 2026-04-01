@@ -64,6 +64,8 @@ public class ConfigProcessor {
                 for (ConfigSetting setting : entry.settings) {
                     boolean dependenciesLoaded = true;
                     String modName = ModHelper.getModName(entry.modId);
+                    boolean anyOrMatched = false;
+
                     for (ModDependency dependency : setting.dependencies) {
                         boolean dependencyLoaded;
                         if (dependency.classLoaded){
@@ -82,8 +84,12 @@ public class ConfigProcessor {
                             dependenciesLoaded = false;
                             break;
                         }else if (dependencyLoaded && setting.dependencyMode == DependencyMode.OR) {
+                            anyOrMatched = true;
                             break;
                         }
+                    }
+                    if (setting.dependencyMode == DependencyMode.OR && !setting.dependencies.isEmpty() && !anyOrMatched) {
+                        dependenciesLoaded = false;
                     }
                     if (dependenciesLoaded) {
                         PackCompanion.LOGGER.info("Dependencies Loaded for Mod Id: {}", entry.modId);
