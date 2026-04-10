@@ -1236,11 +1236,15 @@
   },
   {
     "modId": "jecharacters",
-    "status": "DEPRECATED",
-    "replacementModName": "Had Enough Characters",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/had-enough-characters",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[Had Enough Characters](https://www.curseforge.com/minecraft/mc-mods/had-enough-characters)."
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Had Enough Characters",
+        "modId": "hecharacters",
+        "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/had-enough-characters",
+        "modDescription": "Needed to make Just Enough Characters (JECh) work with Had Enough Items (HEI)."
+      }
+    ]
   },
   {
     "modId": "jehighlights",
