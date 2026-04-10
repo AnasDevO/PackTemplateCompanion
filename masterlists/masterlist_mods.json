@@ -1026,7 +1026,7 @@
     "replacementModName": "",
     "replacementModLink": "",
     "action": "REMOVE",
-    "message": "Has conflicting content with certain addons and is no longer available on CurseForge and Modrinth. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) for most of the same content and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) for most of the mod integration."
+    "message": "Has conflicting content with certain addons. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) for most of the same content and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) for most of the mod integration."
   },
   {
     "modId": "forgelin",
@@ -1759,8 +1759,8 @@
   {
     "modId": "oldresearch",
     "status": "PROBLEMATIC",
-    "action": "INFO",
-    "message": "May cause aspects to disappear on some items. It is also unmaintained with numerous bugs and lacks compatibility with other Thaumcraft addons."
+    "action": "REMOVE",
+    "message": "May cause aspects to disappear on some items and will crash with non-vanilla Thaumcraft research. It is also unmaintained with numerous bugs and lacks compatibility with other Thaumcraft addons."
   },
   {
     "modId": "openblocks",
@@ -2357,7 +2357,7 @@
     "modId": "thaumicwands",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Poor implementation, crashes with Thaumcraft Fix."
+    "message": "Poor implementation, can crash with Thaumcraft Fix and will break the Thaumonomicon render."
   },
   {
     "modId": "thaumicwonders",
