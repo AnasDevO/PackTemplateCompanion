@@ -666,8 +666,8 @@
     "status": "DEPRECATED",
     "replacementModName": "Valkyrien Skies",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[Valkyrien Skies](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies) for physics-based vehicles."
+    "action": "INFO",
+    "message": "Recommended to instead use #link:[Valkyrien Skies](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies) for physics-based vehicles. If you prefer DaVinci's Vessels, you can stick with it."
   },
   {
     "modId": "defaultlanport",
@@ -828,7 +828,7 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/embers-extended-life/files/6556819",
     "replacementModVersion": "1.25.3",
     "action": "DOWNGRADE",
-    "message": "1.25.4+ versions of Embers Unofficial Extended Life will crash on multiplayer. Use #link:[Embers Unofficial Extended Life 1.25.3](https://www.curseforge.com/minecraft/mc-mods/embers-extended-life/files/6556819)."
+    "message": "1.25.4+ versions of Embers Unofficial Extended Life will crash on multiplayer when Thaumic Periphery is also installed, see this #link:[issue report](https://github.com/Ender-Development/Embers-Extended-Life/issues/69) for more info. Use #link:[Embers Unofficial Extended Life 1.25.3](https://www.curseforge.com/minecraft/mc-mods/embers-extended-life/files/6556819)."
   },
   {
     "modId": "enablecheats",
@@ -2596,7 +2596,7 @@
     "replacementModName": "Universal Tweaks",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
-    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks).  If you also want to also make other fluids finite, you can stick with Water Control Extreme."
   },
   {
     "modId": "witchery",
