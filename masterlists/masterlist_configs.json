@@ -1062,6 +1062,46 @@
                 ]
             },
             {
+                "name": "Normal Sound Channels",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#SOUND_CHANNELS#utSoundChannelsNormal",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Normal Sound Channels` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `sound channels`.",
+                "dependencyMode": "OR",
+                "dependencies":[
+                    {
+                        "modId": "extendpolyphonylimit"
+                    },
+                    {
+                        "modId": "soundcap"
+                    },
+                    {
+                        "modId": "soundlimitextends"
+                    }
+                ]
+            },
+            {
+                "name": "Streaming Sound Channels",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#SOUND_CHANNELS#utSoundChannelsStreaming",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Streaming Sound Channels` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `sound channels`.",
+                "dependencyMode": "OR",
+                "dependencies":[
+                    {
+                        "modId": "extendpolyphonylimit"
+                    },
+                    {
+                        "modId": "soundcap"
+                    },
+                    {
+                        "modId": "soundlimitextends"
+                    }
+                ]
+            },
+            {
                 "name": "Elytra Deployment & Landing",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#ENTITIES#utElytraDeploymentLandingToggle",
                 "type": "boolean",

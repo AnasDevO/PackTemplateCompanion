@@ -879,6 +879,14 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "extendpolyphonylimit",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "eyltrafix",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -2192,6 +2200,14 @@
     "message": "Outdated. Use #link:[Soul Shards Respawn Patched](https://www.curseforge.com/minecraft/mc-mods/soul-shards-respawn-patched)."
   },
   {
+    "modId": "soundcap",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "soundfilters",
     "status": "DEPRECATED",
     "replacementModName": "Sound Physics Remixin",
@@ -2199,6 +2215,14 @@
     "action": "REPLACE",
     "message": "Outdated. Use #link:[籁/Sound Physics Remixin](https://www.curseforge.com/minecraft/mc-mods/sound-physics-remixin). For Forge, use #link:[version 1.1.15 or below](https://www.curseforge.com/minecraft/mc-mods/sound-physics-remixin/files/6723296).",
     "isCleanroom": true
+  },
+  {
+    "modId": "soundlimitextends",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "sourcebottles",
