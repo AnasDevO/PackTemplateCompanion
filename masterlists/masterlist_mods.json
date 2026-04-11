@@ -667,7 +667,7 @@
     "replacementModName": "Valkyrien Skies",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies",
     "action": "REPLACE",
-    "message": "Outdated. Use #link:[Valkyrien Skies](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies) for physics-based vehicles."
+    "message": "Recommended to instead use #link:[Valkyrien Skies](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies) for physics-based vehicles. If you prefer DaVinci's Vessels, you can stick with it."
   },
   {
     "modId": "defaultlanport",
@@ -828,7 +828,7 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/embers-extended-life/files/6556819",
     "replacementModVersion": "1.25.3",
     "action": "DOWNGRADE",
-    "message": "1.25.4+ versions of Embers Unofficial Extended Life will crash on multiplayer. Use #link:[Embers Unofficial Extended Life 1.25.3](https://www.curseforge.com/minecraft/mc-mods/embers-extended-life/files/6556819)."
+    "message": "1.25.4+ versions of Embers Unofficial Extended Life will crash on multiplayer when Thaumic Periphery is also installed, see this #link:[issue report](https://github.com/Ender-Development/Embers-Extended-Life/issues/69) for more info. Use #link:[Embers Unofficial Extended Life 1.25.3](https://www.curseforge.com/minecraft/mc-mods/embers-extended-life/files/6556819)."
   },
   {
     "modId": "enablecheats",
@@ -1026,7 +1026,7 @@
     "replacementModName": "",
     "replacementModLink": "",
     "action": "REMOVE",
-    "message": "Has conflicting content with certain addons and is no longer available on CurseForge and Modrinth. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) for most of the same content and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) for most of the mod integration."
+    "message": "Has conflicting content with certain addons. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) for most of the same content and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) for most of the mod integration."
   },
   {
     "modId": "forgelin",
@@ -1236,11 +1236,15 @@
   },
   {
     "modId": "jecharacters",
-    "status": "DEPRECATED",
-    "replacementModName": "Had Enough Characters",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/had-enough-characters",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[Had Enough Characters](https://www.curseforge.com/minecraft/mc-mods/had-enough-characters)."
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Had Enough Characters",
+        "modId": "hecharacters",
+        "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/had-enough-characters",
+        "modDescription": "Needed to make Just Enough Characters (JECh) work with Had Enough Items (HEI)."
+      }
+    ]
   },
   {
     "modId": "jehighlights",
@@ -1755,8 +1759,8 @@
   {
     "modId": "oldresearch",
     "status": "PROBLEMATIC",
-    "action": "INFO",
-    "message": "May cause aspects to disappear on some items. It is also unmaintained with numerous bugs and lacks compatibility with other Thaumcraft addons."
+    "action": "REMOVE",
+    "message": "May cause aspects to disappear on some items and will crash with non-vanilla Thaumcraft research. It is also unmaintained with numerous bugs and lacks compatibility with other Thaumcraft addons."
   },
   {
     "modId": "openblocks",
@@ -1962,7 +1966,7 @@
     "modId": "randommobtextures",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated mod that can impact overall performance. Use Optifine instead."
+    "message": "AI generated mod that can impact overall performance. Use OptiFine instead."
   },
   {
     "modId": "randompatches",
@@ -2020,6 +2024,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/recurrent-complex/download/5615733",
     "action": "UPGRADE",
     "message": "Outdated and may cause crashes."
+  },
+  {
+    "modId": "renaissance_core",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Not recommended, it is specifically made for a modpack and will change major Thaumcraft features without having the ability to disable them."
   },
   {
     "modId": "rpgloot",
@@ -2353,7 +2363,7 @@
     "modId": "thaumicwands",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Poor implementation, crashes with Thaumcraft Fix."
+    "message": "Poor implementation, can crash with Thaumcraft Fix and will break the Thaumonomicon render."
   },
   {
     "modId": "thaumicwonders",
@@ -2592,7 +2602,7 @@
     "replacementModName": "Universal Tweaks",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
-    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks).  If you also want to make other fluids finite, you can stick with Water Control Extreme."
   },
   {
     "modId": "witchery",
