@@ -1601,12 +1601,12 @@
                 ]
             },
             {
-                "name": "Portal Location Link",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#WORLD#utPortalLocationLink",
+                "name": "[1] Portal Location Link Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#WORLD#PORTAL_LOCATION_LINK#utPortalLocationLinkToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The `Portal Location Link` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world`.",
+                "message":"The `Portal Location Link` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world` → `portal location link`.",
                 "dependencies":[
                     {
                         "modId": "netherportalfix"
