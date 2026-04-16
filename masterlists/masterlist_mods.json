@@ -1213,6 +1213,14 @@
     ]
   },
   {
+    "modId": "infinityliblightingpatch",
+    "status": "DEPRECATED",
+    "replacementModName": "Agricraft Refitted",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/agricraft-refitted",
+    "action": "REPLACE",
+    "message": "#link:[Agricraft Refitted](https://www.curseforge.com/minecraft/mc-mods/agricraft-refitted) already has InfinityLib included and fixes the same bug."
+  },
+  {
     "modId": "ihateghostblocks",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
