@@ -985,7 +985,7 @@
     "modId": "fpsboost",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Provides no benefit."
+    "message": "MCreator and has no performance gain."
   },
   {
     "modId": "fpsoptimizer",
@@ -2012,6 +2012,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Known to cause crashes with certain mods. Majority of features are now in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "raumanium",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "MCreator and has no performance gain."
   },
   {
     "modId": "rawinput",
