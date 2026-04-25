@@ -954,7 +954,7 @@
     "replacementModName": "Future Fireproof",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/future-fireproof",
     "action": "REPLACE",
-    "message": "Future Fireproof has a better implementation and API features. #link:[Future Fireproof](https://www.curseforge.com/minecraft/mc-mods/future-fireproof)."
+    "message": "#link:[Future Fireproof](https://www.curseforge.com/minecraft/mc-mods/future-fireproof) has a better implementation and API features."
   },
   {
     "modId": "foamfix",
@@ -972,6 +972,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "foodfunk",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Food Spoiling",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/foodspoiling",
+    "action": "REPLACE",
+    "message": "Impacts performance by ticking every loaded container in the world, food items located in JEI/HEI and the Creative inventory will also rot over time. Use #link:[Food Spoiling](https://www.curseforge.com/minecraft/mc-mods/foodspoiling) for a better implementation."
   },
   {
     "modId": "forgivingvoid",
