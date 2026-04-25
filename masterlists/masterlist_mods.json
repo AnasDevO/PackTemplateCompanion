@@ -297,6 +297,18 @@
     "message": "Outdated. Use #link:[Better Questing Unofficial](https://www.curseforge.com/minecraft/mc-mods/better-questing-unofficial) which merges the Quest Book and Standard Expansion."
   },
   {
+    "modId": "bibliocraft",
+    "version": "2.4.7",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "status": "DEPRECATED",
+    "replacementModName": "BiblioCraft Reshelved",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-reshelved",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[BiblioCraft Reshelved](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-reshelved)."
+  },
+  {
     "modId": "biggerchathistory",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
