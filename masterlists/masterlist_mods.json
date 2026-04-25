@@ -1256,7 +1256,7 @@
     "modId": "ironbackpacks",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Has several dupe issues and can void all bag contents on servers."
+    "message": "Has several dupe issues and can void all bag contents on servers. You can try #link:[Retro Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/retro-sophisticated-backpacks) as an alternative."
   },
   {
     "modId": "jecharacters",
