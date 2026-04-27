@@ -20,11 +20,11 @@
     "isMinVersion": true,
     "isMaxVersion": false,
     "isVersionExclusive": true,
-    "replacementModName": "Agricraft-Refitbench",
+    "replacementModName": "Agricraft Refitted",
     "replacementModVersion": "2.17.1",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/agricraft-refitted",
     "action": "REPLACE",
-    "message": "Outdated and has Severe memory usage and low performance."
+    "message": "Outdated and has severe memory usage and low performance. Make sure to also remove InfinityLib, it is already included in the fork."
   },
   {
     "modId": "baubles",
