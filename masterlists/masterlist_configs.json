@@ -610,6 +610,19 @@
                 ]
             },
             {
+                "name": "[1] Unsafe Sleeping Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#UNSAFE_SLEEPING#utAllowUnsafeSleeping",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Unsafe Sleeping` tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `entities` → `unsafe sleeping`.",
+                "dependencies":[
+                    {
+                        "modId": "bettersafebed"
+                    }
+                ]
+            },
+            {
                 "name": "[1] Chat Lines",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#CHAT#utChatLines",
                 "type": "int",
@@ -1058,6 +1071,46 @@
                 "dependencies":[
                     {
                         "modId": "experiencebugfix"
+                    }
+                ]
+            },
+            {
+                "name": "Normal Sound Channels",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#SOUND_CHANNELS#utSoundChannelsNormal",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Normal Sound Channels` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `sound channels`.",
+                "dependencyMode": "OR",
+                "dependencies":[
+                    {
+                        "modId": "extendpolyphonylimit"
+                    },
+                    {
+                        "modId": "soundcap"
+                    },
+                    {
+                        "modId": "soundlimitextends"
+                    }
+                ]
+            },
+            {
+                "name": "Streaming Sound Channels",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#SOUND_CHANNELS#utSoundChannelsStreaming",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Streaming Sound Channels` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc` → `sound channels`.",
+                "dependencyMode": "OR",
+                "dependencies":[
+                    {
+                        "modId": "extendpolyphonylimit"
+                    },
+                    {
+                        "modId": "soundcap"
+                    },
+                    {
+                        "modId": "soundlimitextends"
                     }
                 ]
             },
@@ -1561,12 +1614,12 @@
                 ]
             },
             {
-                "name": "Portal Location Link",
-                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#WORLD#utPortalLocationLink",
+                "name": "[1] Portal Location Link Toggle",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigBugfixes#WORLD#PORTAL_LOCATION_LINK#utPortalLocationLinkToggle",
                 "type": "boolean",
                 "value": "false",
                 "shouldMatch":"true",
-                "message":"The `Portal Location Link` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world`.",
+                "message":"The `Portal Location Link` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `world` → `portal location link`.",
                 "dependencies":[
                     {
                         "modId": "netherportalfix"
