@@ -394,6 +394,14 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "bloodagricraft",
+    "status": "DEPRECATED",
+    "replacementModName": "Magiculture Integrations",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/magiculture-integrations",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Magiculture Integrations](https://www.curseforge.com/minecraft/mc-mods/magiculture-integrations)."
+  },
+  {
     "modId": "bloodmoon",
     "status": "PROBLEMATIC",
     "replacementModName": "Hyxcate",
