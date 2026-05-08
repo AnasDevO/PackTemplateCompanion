@@ -493,6 +493,14 @@
     "isCleanroom": true
   },
   {
+    "modId": "chargefix",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "charset",
     "version": "0.5.6.6",
     "isMinVersion": false,
@@ -2134,6 +2142,14 @@
     "status": "DEPRECATED",
     "action": "REMOVE",
     "message": "Provides no real performance benefit."
+  },
+  {
+    "modId": "replant",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "roguelike",
