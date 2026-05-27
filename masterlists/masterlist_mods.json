@@ -2203,6 +2203,14 @@
     "message": "Provides no real performance benefit."
   },
   {
+    "modId": "reforged",
+    "status": "DEPRECATED",
+    "replacementModName": "Balkon's WeaponMod: Legacy",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy",
+    "action": "REPLACE",
+    "message": "No longer being developed, it is recommended to instead use #link:[Balkon's WeaponMod: Legacy](https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy) and #link:[Balkon's Expansion](https://www.curseforge.com/minecraft/mc-mods/balkons-expansion). If you prefer Reforged, you can stick with it."
+  },
+  {
     "modId": "replant",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
