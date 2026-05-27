@@ -551,6 +551,18 @@
     "message": "Outdated and may cause crashes."
   },
   {
+    "modId": "chisel",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Capn's Chisel Search",
+        "modId": "capnschiselsearch",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/capns-chisel-search",
+        "modDescription": "Adds searchbar to Chisel's GUI."
+      }
+    ]
+  },
+  {
     "modId": "cie",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
