@@ -1291,7 +1291,7 @@
     "replacementModName": "KAMI: Reborn",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/kami-reborn",
     "action": "REPLACE",
-    "message": "Outdated and abandoned. Use #link:[KAMI: Reborn](https://www.curseforge.com/minecraft/mc-mods/kami-reborn) for the rewrite and continuation. Use #link[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) for the rest of Thaumic Tinkerer's content, but it is no longer required to run KAMI: Reborn."
+    "message": "Outdated and abandoned. Use #link:[KAMI: Reborn](https://www.curseforge.com/minecraft/mc-mods/kami-reborn) for the rewrite and continuation. Use #link[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) for the rest of Thaumic Tinkerer's content, although you no longer need it to run KAMI: Reborn."
   },
   {
     "modId": "ichunutil",
