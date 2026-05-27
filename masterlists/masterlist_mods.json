@@ -1255,13 +1255,21 @@
     "replacementModName": "KAMI: Reborn",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/kami-reborn",
     "action": "REPLACE",
-    "message": "Outdated and abandoned. Use #link:[KAMI: Reborn](https://www.curseforge.com/minecraft/mc-mods/kami-reborn) for the rewrite and continuation. Use #link[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) for the rest of Thaumic Tinkerer's content, but it is no longer required to run KAMI."
+    "message": "Outdated and abandoned. Use #link:[KAMI: Reborn](https://www.curseforge.com/minecraft/mc-mods/kami-reborn) for the rewrite and continuation. Use #link[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) for the rest of Thaumic Tinkerer's content, but it is no longer required to run KAMI: Reborn."
   },
   {
     "modId": "ichunutil",
     "status": "PROBLEMATIC",
     "action": "INFO",
     "message": "Can cause invisible entities in your world, as noted on this #link:[issue report](https://github.com/iChun/iChunUtil/issues/178#issuecomment-2917948068)."
+  },
+  {
+    "modId": "ihateghostblocks",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "ikwid",
@@ -1319,14 +1327,6 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/agricraft-refitted",
     "action": "REPLACE",
     "message": "#link:[Agricraft Refitted](https://www.curseforge.com/minecraft/mc-mods/agricraft-refitted) already has InfinityLib included and fixes the same bug."
-  },
-  {
-    "modId": "ihateghostblocks",
-    "status": "DEPRECATED",
-    "replacementModName": "Universal Tweaks",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
-    "action": "REPLACE",
-    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "insomniac",
@@ -2435,6 +2435,18 @@
     "message": "Outdated. Use #link:[Tinkers' Antique](https://www.curseforge.com/minecraft/mc-mods/tinkers-antique) which merges modern features and backports."
   },
   {
+    "modId": "tconstruct",
+    "action": "INCLUDE",
+    "patchList": [
+      {
+        "modName": "Tinker's Planner Antique",
+        "modId": "tinkersplannerantique",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-planner-antique",
+        "modDescription": "A Minecraft 1.12.2 port of Tinker's Planner for planning Tinkers' Construct tools and armor before crafting."
+      }
+    ]
+  },
+  {
     "modId": "techguns",
     "version": "2.0.2.0",
     "isMinVersion": false,
@@ -2576,6 +2588,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-arsenal-reloaded",
     "action": "REPLACE",
     "message": "Outdated. Use #link:[Tinkers' Arsenal reloaded](https://www.curseforge.com/minecraft/mc-mods/tinkers-arsenal-reloaded)."
+  },
+  {
+    "modId": "tinkerscompendium",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Abandoned and not recommended. It is prone to crashing and has memory leaks."
   },
   {
     "modId": "tinkersjei",
@@ -2792,7 +2810,7 @@
         "modName": "Balkon's Expansion",
         "modId": "balkonsexpansion",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/balkons-expansion",
-        "modDescription": "Highly recommended for configurable mod integration and quality of life."
+        "modDescription": "An expansion for Balkon's WeaponMod: Legacy in 1.12.2 that supports materials from other mods."
       }
     ]
   },
