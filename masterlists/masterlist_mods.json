@@ -2439,6 +2439,12 @@
     "action": "INCLUDE",
     "patchList": [
       {
+        "modName": "Antique Armory",
+        "modId": "conarm",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/antique-armory",
+        "modDescription": "Unofficial continued maintenance of Construct's Armory for 1.12.2. Enter the world of armor."
+      },
+      {
         "modName": "Tinker's Planner Antique",
         "modId": "tinkersplannerantique",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-planner-antique",
