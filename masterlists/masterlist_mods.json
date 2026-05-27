@@ -839,6 +839,30 @@
     "message": "Outdated. Use #link:[Dramatic Trees](https://www.curseforge.com/minecraft/mc-mods/dramatictrees)."
   },
   {
+    "modId": "dynamictreesbop",
+    "status": "DEPRECATED",
+    "version": "1.5.1",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": false,
+    "replacementModName": "Dramatic Trees - Biomes O' Plenty",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/dramatictrees-bop",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[Dramatic Trees - Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/dramatictrees-bop)."
+  },
+  {
+    "modId": "dynamictreesnatura",
+    "status": "DEPRECATED",
+    "version": "1.12.2-1.1.7",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": false,
+    "replacementModName": "Dramatic Trees - Natura Legacy",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/dramatictrees-naturalegacy",
+    "action": "REPLACE",
+    "message": "Outdated and incompatible with Natura Legacy. Use #link:[Dramatic Trees - Natura Legacy](https://www.curseforge.com/minecraft/mc-mods/dramatictrees-naturalegacy)."
+  },
+  {
     "modId": "ea",
     "status": "DEPRECATED",
     "replacementModName": "Congrega Mystica",
@@ -2598,8 +2622,10 @@
   {
     "modId": "tinkerscompendium",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Abandoned and not recommended. It is prone to crashing and has memory leaks."
+    "replacementModName": "Tinkers Tactical Toughness",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-tactical-toughness",
+    "action": "REPLACE",
+    "message": "Abandoned and not recommended, it is prone to crashing and has memory leaks. Use #link:[Tinkers Tactical Toughness](https://www.curseforge.com/minecraft/mc-mods/tinkers-tactical-toughness) for a far better alternative."
   },
   {
     "modId": "tinkersjei",
