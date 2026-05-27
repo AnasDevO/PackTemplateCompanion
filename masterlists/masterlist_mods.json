@@ -1118,7 +1118,7 @@
     "replacementModName": "",
     "replacementModLink": "",
     "action": "REMOVE",
-    "message": "Has conflicting content with certain addons. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations) for most of the same content and #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica) for most of the mod integration."
+    "message": "Almost all the content is implemented better in other addons. Use the following instead: #link:[Congrega Mystica](https://www.curseforge.com/minecraft/mc-mods/congrega-mystica), #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations), and #link:[Thaumic Tinkerer Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn)."
   },
   {
     "modId": "forgelin",
@@ -1131,6 +1131,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/forgelin-continuous",
     "action": "REPLACE",
     "message": "Outdated. Use #link:[Forgelin-Continuous](https://www.curseforge.com/minecraft/mc-mods/forgelin-continuous)."
+  },
+  {
+    "modId": "gadothaumy",
+    "status": "DEPRECATED",
+    "replacementModName": "Thaumic Wonders Unofficial",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-wonders-unofficial",
+    "action": "REPLACE",
+    "message": "The Infusion Claw is implemented better in #link:[Thaumic Wonders Unofficial](https://www.curseforge.com/minecraft/mc-mods/thaumic-wonders-unofficial), while the Essentia Condenser has issues with mod compatibility."
   },
   {
     "modId": "geckolib3",
@@ -1240,6 +1248,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/hot-or-not-plus",
     "action": "REPLACE",
     "message": "Outdated. Use #link:[Hot or Not Plus](https://www.curseforge.com/minecraft/mc-mods/hot-or-not-plus)."
+  },
+  {
+    "modId": "ichoriumkit",
+    "status": "DEPRECATED",
+    "replacementModName": "KAMI: Reborn",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/kami-reborn",
+    "action": "REPLACE",
+    "message": "Outdated and abandoned. Use #link:[KAMI: Reborn](https://www.curseforge.com/minecraft/mc-mods/kami-reborn) for the rewrite and continuation. Use #link[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) for the rest of Thaumic Tinkerer's content, but it is no longer required to run KAMI."
   },
   {
     "modId": "ichunutil",
@@ -2434,16 +2450,10 @@
     "action": "INCLUDE",
     "patchList": [
       {
-        "modName": "Thaumcraft Fix",
-        "modId": "thaumcraftfix",
-        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumcraftfix",
-        "modDescription": "Many a fix for Thaumcraft 6."
-      },
-      {
-        "modName": "ThaumicTweaker",
-        "modId": "thaumictweaker",
-        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
-        "modDescription": "Numerous tweaks, fixes, enahancments and overhauls for Thaumcraft 6."
+        "modName": "Congrega Mystica",
+        "modId": "congregamystica",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/congrega-mystica",
+        "modDescription": "Large scale Thaumcraft 6 integration addon. Highly configurable."
       },
       {
         "modName": "Magiculture Integrations",
@@ -2452,16 +2462,28 @@
         "modDescription": "Improved Thaumcraft cross-mod interoperability and fixes several issues with the Golem harvest seal."
       },
       {
-        "modName": "Congrega Mystica",
-        "modId": "congregamystica",
-        "modLink": "https://www.curseforge.com/minecraft/mc-mods/congrega-mystica",
-        "modDescription": "Large scale Thaumcraft 6 integration addon. Highly configurable."
+        "modName": "Thaumcraft Fix",
+        "modId": "thaumcraftfix",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumcraftfix",
+        "modDescription": "Many a fix for Thaumcraft 6."
+      },
+      {
+        "modName": "ThaumicAPI",
+        "modId": "thaumicapi",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumicapi",
+        "modDescription": "A library mod used to standardize and expand a large number of previously hardcoded features in Thaumcraft 6."
       },
       {
         "modName": "Thaumic Augmentation",
         "modId": "thaumicaugmentation",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation",
         "modDescription": "Augmenting Thaumcraft 6 with a variety of fresh and familiar content."
+      },
+      {
+        "modName": "ThaumicTweaker",
+        "modId": "thaumictweaker",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
+        "modDescription": "Numerous tweaks, fixes, enahancments and overhauls for Thaumcraft 6."
       }
     ]
   },
@@ -2745,6 +2767,14 @@
         "modDescription": "Fixes various bugs in VoxelMap."
       }
     ]
+  },
+  {
+    "modId": "warptheory",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Warp-O-Mania",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/warp-o-mania",
+    "action": "REPLACE",
+    "message": "Abandoned and implements the new warp events by running them separately at the same time as Thaumcraft's warp events. For a more configurable lightweight alternative that instead adds new warp events to the existing pool, use #link:[Warp-O-Mania](https://www.curseforge.com/minecraft/mc-mods/warp-o-mania)."
   },
   {
     "modId": "watercontrolextreme",

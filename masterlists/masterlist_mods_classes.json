@@ -303,6 +303,18 @@
     ]
   },
   {
+    "modId": "planarartifice",
+    "status": "DEPRECATED",
+    "verification": "CLASSLOADED",
+    "className": "leppa.planarartifice.main.PlanarArtifice",
+    "versionHash": "",
+    "action": "REPLACE",
+    "replacementModName": "Planar Artifice: Reflected",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/planar-artifice-reflected",
+    "replacementModVersion": "",
+    "message": "Unfinished and buggy. Use #link:[Planar Artifice: Reflected](https://www.curseforge.com/minecraft/mc-mods/planar-artifice-reflected) for the rewrite and continuation."
+  },
+  {
     "modId": "randomthings",
     "verification": "HASHMATCH",
     "className": "",
@@ -376,6 +388,18 @@
     "message": "Problematic. Crashes with other Thaumcraft addons. Use #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker).",
     "patchList": [],
     "isCleanroom": false
+  },
+  {
+    "modId": "thaumictinkerer",
+    "status": "DEPRECATED",
+    "verification": "CLASSLOADED",
+    "className": "com.nekokittygames.thaumictinkerer.ThaumicTinkerer",
+    "versionHash": "",
+    "action": "REPLACE",
+    "replacementModName": "Thaumic Tinkerer: Reborn",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn",
+    "replacementModVersion": "",
+    "message": "Unfinished and buggy. Use #link:[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) for the rewrite and continuation. KAMI's content has been split up into #link:[KAMI: Reborn](https://www.curseforge.com/minecraft/mc-mods/kami-reborn) and no longer requires Thaumic Tinkerer."
   },
   {
     "modId": "thaumictweaker",
