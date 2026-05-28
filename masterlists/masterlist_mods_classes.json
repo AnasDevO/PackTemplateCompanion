@@ -131,6 +131,18 @@
     "isCleanroom": true
   },
   {
+    "modId": "enchlevellangpatch",
+    "status": "PROBLEMATIC",
+    "verification": "CLASSLOADED",
+    "className": "xland.mcmod.enchlevellangpatch.api.EnchantmentLevelLangPatchConfig",
+    "versionHash": "",
+    "action": "REPLACE",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "replacementModVersion": "",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "essential",
     "status": "PROBLEMATIC",
     "verification": "CLASSLOADED",
