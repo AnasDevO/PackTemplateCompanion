@@ -17,6 +17,18 @@
     "message": "Abandoned. Use #link:[Academycraft UES](https://github.com/yor42/AcademyCraft/releases)."
   },
   {
+    "modId": "actuallyadditions",
+    "status": "DEPRECATED",
+    "version": "1.12.2-r152",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": false,
+    "replacementModName": "Actually Additions V2 Coffee Edition",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/actually-additions-v2-coffee-edition",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[Actually Additions V2 Coffee Edition](https://www.curseforge.com/minecraft/mc-mods/actually-additions-v2-coffee-edition)."
+  },
+  {
     "modId": "advancedrocketry",
     "version": "1.12.2-2.0.0-17",
     "isMinVersion": false,
