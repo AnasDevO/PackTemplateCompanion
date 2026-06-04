@@ -106,7 +106,7 @@
     "modId": "alexsmobs",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Vibecoded mod. do not recommend to use."
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
   },
   {
     "modId": "appleskin",
@@ -519,6 +519,12 @@
     "isCleanroom": true
   },
   {
+    "modId": "chaospersists",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded port. Highly not recommended for use."
+  },
+  {
     "modId": "chargefix",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -587,6 +593,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "citadel",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
   },
   {
     "modId": "classiccombat",
@@ -705,6 +717,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations",
     "action": "REPLACE",
     "message": "Outdated. Use #link:[New Crimson Revelations](https://www.curseforge.com/minecraft/mc-mods/new-crimson-revelations)."
+  },
+  {
+    "modId": "crimsonwarfare",
+    "status": "DEPRECATED",
+    "replacementModName": "Thaumic Augmentation",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation",
+    "action": "REPLACE",
+    "message": "#link:[Thaumic Augmentation](https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation) already adds back the bosses this mod includes (excluding Crimson Praetor). If you prefer Crimson Warfare's implementation, you can stick with it."
   },
   {
     "modId": "ctm",
@@ -924,7 +944,7 @@
     "modId": "efficiententities",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "An AI generated implementation of #link:[FastEntityRender](https://github.com/Meldexun/FastEntityRender). Causes numerous render issues."
+    "message": "An AI generated/Vibe coded implementation of #link:[FastEntityRender](https://github.com/Meldexun/FastEntityRender). Causes numerous render issues."
   },
   {
     "modId": "embers",
@@ -951,6 +971,12 @@
     "replacementModVersion": "1.25.3",
     "action": "DOWNGRADE",
     "message": "1.25.4+ versions of Embers Unofficial Extended Life will crash on multiplayer when Thaumic Periphery is also installed, see this #link:[issue report](https://github.com/Ender-Development/Embers-Extended-Life/issues/69) for more info. Use #link:[Embers Unofficial Extended Life 1.25.3](https://www.curseforge.com/minecraft/mc-mods/embers-extended-life/files/6556819)."
+  },
+  {
+    "modId": "emt",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Extremely unfinished with a lot of bugs and missing recipes. You can use #link:[Electro-Magic Tools - IC2 Classic](https://github.com/kappa-maintainer/ElectroMagicToolsClassic/releases) instead if you're using IC2 Classic."
   },
   {
     "modId": "enablecheats",
@@ -2131,7 +2157,7 @@
     "modId": "randommobtextures",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated mod that can impact overall performance. Use OptiFine instead."
+    "message": "AI generated/Vibe coded mod that can impact overall performance. Use OptiFine instead."
   },
   {
     "modId": "randompatches",
@@ -2534,6 +2560,12 @@
     "message": "Outdated. Use #link:[Techguns-CE](https://www.curseforge.com/minecraft/mc-mods/techguns-ce)."
   },
   {
+    "modId": "tg",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Abandoned, buggy, and notably unfinished, use other Thaumcraft addons instead."
+  },
+  {
     "modId": "thaumcraft",
     "action": "INCLUDE",
     "patchList": [
@@ -2592,6 +2624,12 @@
     "message": "Overwrites Thaumcraft methods and breaks compatibility. Use #link:[Thaumcraft Fix](https://www.curseforge.com/minecraft/mc-mods/thaumcraftfix)."
   },
   {
+    "modId": "thaumicforever",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Not recommended, some content is unfinished, it contains overlapping content with other addons, and it breaks some functionality with ThaumicTweaker and Thaumic Wonders Unofficial."
+  },
+  {
     "modId": "thaumicmeme",
     "status": "DEPRECATED",
     "replacementModName": "ThaumicTweaker",
@@ -2608,16 +2646,26 @@
     "message": "Better implementation exists in #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker)."
   },
   {
-    "modId": "thaumicforever",
-    "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Not recommended, some content is unfinished, it contains overlapping content with other addons, and it breaks some functionality with ThaumicTweaker and Thaumic Wonders Unofficial."
-  },
-  {
     "modId": "thaumicspeedup",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "Screws up aspects and has issues with NBT."
+  },
+  {
+    "modId": "thaumictinkerer_funnel",
+    "status": "DEPRECATED",
+    "replacementModName": "Thaumic Tinkerer: Reborn",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn",
+    "action": "REPLACE",
+    "message": "No longer neccessary because #link:[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) adds a completely rewritten Essentia Funnel."
+  },
+  {
+    "modId": "thaumictweaks",
+    "status": "DEPRECATED",
+    "replacementModName": "ThaumicTweaker",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
+    "action": "REPLACE",
+    "message": "A good portion of features overlap with both #link:[Thaumcraft Fix](https://www.curseforge.com/minecraft/mc-mods/thaumcraftfix) and #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker)."
   },
   {
     "modId": "thaumicwands",
@@ -2747,6 +2795,12 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "trm",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Extremely unfinished with an empty GitHub repository. Several blocks will cause a crash when placed."
+  },
+  {
     "modId": "tropicraft",
     "version": "7.1.9.123",
     "isMinVersion": false,
@@ -2801,7 +2855,7 @@
     "modId": "unlockablebauble",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated, it poorly and invasively injects Baubles capabilities into every armor item. Highly not recommended for use."
+    "message": "AI generated/Vibe coded, it poorly and invasively injects Baubles capabilities into every armor item. Highly not recommended for use."
   },
   {
     "modId": "unridekeybind",
