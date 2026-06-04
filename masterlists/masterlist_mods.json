@@ -103,6 +103,12 @@
     "message": "Outdated. Use #link:[Alchemistry - Redox](https://www.curseforge.com/minecraft/mc-mods/alchemistry-redox)."
   },
   {
+    "modId": "alexsmobs",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Vibecoded mod. do not recommend to use."
+  },
+  {
     "modId": "appleskin",
     "status": "DEPRECATED",
     "replacementModName": "LemonSkin",
