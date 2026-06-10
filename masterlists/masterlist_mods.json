@@ -136,6 +136,14 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "armorswap",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "attributefix",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1954,6 +1962,12 @@
     "message": "May cause aspects to disappear on some items and will crash with non-vanilla Thaumcraft research. It is also unmaintained with numerous bugs and lacks compatibility with other Thaumcraft addons."
   },
   {
+    "modId": "onslaught",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Discontinued and extremely buggy. Not recommended for use by the authors."
+  },
+  {
     "modId": "openblocks",
     "version": "1.8.3.1",
     "isMinVersion": true,
@@ -2101,6 +2115,18 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "quark",
+    "status": "DEPRECATED",
+    "version": "r1.6-179",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": false,
+    "replacementModName": "Quark: RotN Edition",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/quark-rotn-edition",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[Quark: RotN Edition](https://www.curseforge.com/minecraft/mc-mods/quark-rotn-edition)."
   },
   {
     "modId": "questbook",
@@ -2692,6 +2718,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
     "action": "REPLACE",
     "message": "Overwrites Thaumcraft methods and breaks compatibility. Use #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker) instead."
+  },
+  {
+    "modId": "theimpossiblelibrary",
+    "status": "PROBLEMATIC",
+    "action": "INFO",
+    "message": "May heavily impact the load time and potentially cause conflicts due to being made to work on multiple versions and mod loaders."
   },
   {
     "modId": "tidychunk",

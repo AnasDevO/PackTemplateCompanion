@@ -418,6 +418,19 @@
                 ]
             },
             {
+                "name": "Armor Swap",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utArmorSwap",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The `Armor Swap` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `misc`.",
+                "dependencies":[
+                    {
+                        "modId": "armorswap"
+                    }
+                ]
+            },
+            {
                 "name": "[01] Attributes Toggle",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#ENTITIES#ATTRIBUTES#utAttributesToggle",
                 "type": "boolean",
