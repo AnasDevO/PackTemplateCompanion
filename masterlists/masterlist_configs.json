@@ -622,6 +622,9 @@
                 "dependencies":[
                     {
                         "modId": "betterplacement"
+                    },
+                    {
+                        "modId": "accurateblockplacement"
                     }
                 ]
             },
