@@ -619,6 +619,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Better Placement` tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks` → `better placement`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "betterplacement"

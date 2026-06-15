@@ -37,6 +37,14 @@
     "message": "Outdated. Use #link:[Actually Additions V2 Coffee Edition](https://www.curseforge.com/minecraft/mc-mods/actually-additions-v2-coffee-edition)."
   },
   {
+    "modId": "actuallybaubles",
+    "status": "DEPRECATED",
+    "replacementModName": "Possibly Baubles",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/possibly-baubles",
+    "action": "REPLACE",
+    "message": "#link:[Possibly Baubles](https://www.curseforge.com/minecraft/mc-mods/possibly-baubles) utilizes mixins to add Bauble capabilities to Actually Additions items, rather than having them as separate items."
+  },
+  {
     "modId": "advancedrocketry",
     "version": "1.12.2-2.0.0-17",
     "isMinVersion": false,
@@ -2056,9 +2064,9 @@
   },
   {
     "modId": "persistency",
-    "status": "PROBLEMATIC",
+    "status": "DEPRECATED",
     "action": "REMOVE",
-    "message": "Currently only used by Thaumic Speedup which is not recommended for use."
+    "message": "No longer required by Thaumic Speedup."
   },
   {
     "modId": "phosphorcrashfix",
@@ -2634,6 +2642,12 @@
         "modDescription": "Augmenting Thaumcraft 6 with a variety of fresh and familiar content."
       },
       {
+        "modName": "Thaumic Speedup",
+        "modId": "thaumicspeedup",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-speedup",
+        "modDescription": "Speeds up Thaumcraft's loading process and optimizes internals."
+      },
+      {
         "modName": "ThaumicTweaker",
         "modId": "thaumictweaker",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
@@ -2682,8 +2696,15 @@
   {
     "modId": "thaumicspeedup",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Screws up aspects and has issues with NBT."
+    "version": "5.0",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "replacementModName": "Thaumic Speedup",
+    "replacementModVersion": "5.0",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-speedup/files/8251681",
+    "action": "UPGRADE",
+    "message": "Screws up aspects and has issues with NBT. The Persistency requirement is also dropped in 5.0."
   },
   {
     "modId": "thaumictinkerer_funnel",
