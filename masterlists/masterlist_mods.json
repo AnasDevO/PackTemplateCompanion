@@ -42,7 +42,7 @@
     "replacementModName": "Possibly Baubles",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/possibly-baubles",
     "action": "REPLACE",
-    "message": "#link:[Possibly Baubles](https://www.curseforge.com/minecraft/mc-mods/possibly-baubles) utilizes mixins to add Bauble capabilities to Actually Additions items, rather than having them as separate items."
+    "message": "#link:[Possibly Baubles](https://www.curseforge.com/minecraft/mc-mods/possibly-baubles) has improved implementation and more features."
   },
   {
     "modId": "advancedrocketry",
