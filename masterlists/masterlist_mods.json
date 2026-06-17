@@ -1403,6 +1403,14 @@
     "message": "Outdated. Use #link:[Immersive Craft Patched](https://www.curseforge.com/minecraft/mc-mods/immersive-craft-patched)."
   },
   {
+    "modId": "improved-relauncher",
+    "status": "DEPRECATED",
+    "replacementModName": "Cleanroom Relauncher",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher",
+    "action": "REPLACE",
+    "message": "No longer needed because the original Cleanroom Relauncher now automatically sets up everything since 0.4.0. Use #link:[Cleanroom Relauncher](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher) or #link:[Cleanroom Relauncher Unofficial](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher-unofficial)."
+  },
+  {
     "modId": "infwithmend",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
