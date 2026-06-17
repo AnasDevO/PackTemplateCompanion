@@ -2085,6 +2085,23 @@
         "modId": "xporbclump",
         "settings": [
             {
+                "name": "enable",
+                "field": "surreal.fixeroo.FixerooConfig#XPORBCLUMP#enable",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch": "true",
+                "message": "The xp orb clump tweaks are located in `xporbclump.cfg` → `general` → `xporbclump`.",
+                "dependencyMode": "OR",
+                "dependencies": [
+                    {
+                        "modId": "clumps"
+                    },
+                    {
+                        "modId": "bigxpdrops"
+                    }
+                ]
+            },
+            {
                 "name": "distanceList",
                 "field": "surreal.fixeroo.FixerooConfig#TESRDISTANCE#distanceList",
                 "type": "list_int_p",

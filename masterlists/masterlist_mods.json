@@ -383,6 +383,14 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "bigxpdrops",
+    "status": "DEPRECATED",
+    "replacementModName": "Fixeroo",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)."
+  },
+  {
     "modId": "binniecore",
     "version": "2.5.1.203",
     "isMinVersion": false,
