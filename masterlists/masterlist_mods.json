@@ -1898,6 +1898,14 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "no_double_eat",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "#link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks) already has the same fix."
+  },
+  {
     "modId": "nobounce",
     "status": "DEPRECATED",
     "replacementModName": "ThaumicTweaker",
