@@ -619,6 +619,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Better Placement` tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks` → `better placement`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "betterplacement"
@@ -1271,6 +1272,9 @@
                 "dependencies":[
                     {
                         "modId": "foodfix"
+                    },
+                    {
+                        "modId": "no_double_eat"
                     }
                 ]
             },
@@ -2083,6 +2087,23 @@
     {
         "modId": "xporbclump",
         "settings": [
+            {
+                "name": "enable",
+                "field": "surreal.fixeroo.FixerooConfig#XPORBCLUMP#enable",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch": "true",
+                "message": "The xp orb clump tweaks are located in `xporbclump.cfg` → `general` → `xporbclump`.",
+                "dependencyMode": "OR",
+                "dependencies": [
+                    {
+                        "modId": "clumps"
+                    },
+                    {
+                        "modId": "bigxpdrops"
+                    }
+                ]
+            },
             {
                 "name": "distanceList",
                 "field": "surreal.fixeroo.FixerooConfig#TESRDISTANCE#distanceList",

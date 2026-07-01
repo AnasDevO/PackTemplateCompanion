@@ -37,6 +37,14 @@
     "message": "Outdated. Use #link:[Actually Additions V2 Coffee Edition](https://www.curseforge.com/minecraft/mc-mods/actually-additions-v2-coffee-edition)."
   },
   {
+    "modId": "actuallybaubles",
+    "status": "DEPRECATED",
+    "replacementModName": "Possibly Baubles",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/possibly-baubles",
+    "action": "REPLACE",
+    "message": "#link:[Possibly Baubles](https://www.curseforge.com/minecraft/mc-mods/possibly-baubles) has improved implementation and more features."
+  },
+  {
     "modId": "advancedrocketry",
     "version": "1.12.2-2.0.0-17",
     "isMinVersion": false,
@@ -347,6 +355,12 @@
     "message": "MCreator and not very performance friendly. Use #link:[Wild Caves 4](https://www.curseforge.com/minecraft/mc-mods/wild-caves-4) instead."
   },
   {
+    "modId": "better_weather",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded port. Highly not recommended for use."
+  },
+  {
     "modId": "bibliocraft",
     "version": "2.4.7",
     "isMinVersion": true,
@@ -373,6 +387,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "bigxpdrops",
+    "status": "DEPRECATED",
+    "replacementModName": "Fixeroo",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)."
   },
   {
     "modId": "binniecore",
@@ -957,6 +979,12 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "easymagic",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+  },
+  {
     "modId": "efficiententities",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
@@ -1073,6 +1101,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "fallingleaves",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
   },
   {
     "modId": "farsight",
@@ -1387,6 +1421,14 @@
     "message": "Outdated. Use #link:[Immersive Craft Patched](https://www.curseforge.com/minecraft/mc-mods/immersive-craft-patched)."
   },
   {
+    "modId": "improved-relauncher",
+    "status": "DEPRECATED",
+    "replacementModName": "Cleanroom Relauncher",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher",
+    "action": "REPLACE",
+    "message": "No longer needed because the original Cleanroom Relauncher now automatically sets up everything since 0.4.0. Use #link:[Cleanroom Relauncher](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher) or #link:[Cleanroom Relauncher Unofficial](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher-unofficial)."
+  },
+  {
     "modId": "infwithmend",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1431,6 +1473,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "inventoryprofilesnext",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
   },
   {
     "modId": "inventoryspam",
@@ -1755,6 +1803,12 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "multimob",
+    "status": "PROBLEMATIC",
+    "action": "INFO",
+    "message": "Unmaintained and known to potentially screw up mob spawns while also causing other issues and crashes."
+  },
+  {
     "modId": "multithreadednoise",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
@@ -1868,6 +1922,14 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "no_double_eat",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "#link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks) already has the same fix."
+  },
+  {
     "modId": "nobounce",
     "status": "DEPRECATED",
     "replacementModName": "ThaumicTweaker",
@@ -1950,10 +2012,10 @@
   {
     "modId": "normalasm",
     "status": "DEPRECATED",
-    "replacementModName": "CensoredASM",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/lolasm",
+    "replacementModName": "Chibi",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/chibi",
     "action": "REPLACE",
-    "message": "Uses deprecated methods that can cause crashes in older modpacks. Use #link:[CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)."
+    "message": "Uses deprecated methods that can cause crashes in older modpacks. Use #link:[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)."
   },
   {
     "modId": "oldcombat",
@@ -2024,6 +2086,12 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "particular",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+  },
+  {
     "modId": "patchouli",
     "status": "DEPRECATED",
     "version": "1.0-23.6",
@@ -2056,9 +2124,9 @@
   },
   {
     "modId": "persistency",
-    "status": "PROBLEMATIC",
+    "status": "DEPRECATED",
     "action": "REMOVE",
-    "message": "Currently only used by Thaumic Speedup which is not recommended for use."
+    "message": "No longer required by Thaumic Speedup."
   },
   {
     "modId": "phosphorcrashfix",
@@ -2634,6 +2702,12 @@
         "modDescription": "Augmenting Thaumcraft 6 with a variety of fresh and familiar content."
       },
       {
+        "modName": "Thaumic Speedup",
+        "modId": "thaumicspeedup",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-speedup",
+        "modDescription": "Speeds up Thaumcraft's loading process and optimizes internals."
+      },
+      {
         "modName": "ThaumicTweaker",
         "modId": "thaumictweaker",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
@@ -2682,8 +2756,15 @@
   {
     "modId": "thaumicspeedup",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Screws up aspects and has issues with NBT."
+    "version": "5.0",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "replacementModName": "Thaumic Speedup",
+    "replacementModVersion": "5.0",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-speedup/files/8251681",
+    "action": "UPGRADE",
+    "message": "Screws up aspects and has issues with NBT. The Persistency requirement is also dropped in 5.0."
   },
   {
     "modId": "thaumictinkerer_funnel",
@@ -2835,6 +2916,12 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "travelerstitles",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+  },
+  {
     "modId": "trm",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
@@ -2939,6 +3026,12 @@
     "message": "Outdated and may cause crashes."
   },
   {
+    "modId": "visuality",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+  },
+  {
     "modId": "voidfog",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -2997,6 +3090,12 @@
         "modDescription": "A Companion mod for Witchery: Resurrected, patching bugs, adding integrations and introducing modpack maker-oriented features."
       }
     ]
+  },
+  {
+    "modId": "witcherywalls",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded port. Highly not recommended for use."
   },
   {
     "modId": "wizardry",
