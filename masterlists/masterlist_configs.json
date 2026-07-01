@@ -1269,6 +1269,7 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Double Food Consumption` fix is located in `Universal Tweaks - Bugfixes.cfg` → `general` → `entities`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "foodfix"

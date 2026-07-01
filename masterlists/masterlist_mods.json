@@ -2325,22 +2325,15 @@
     "message": "Outdated and may cause crashes."
   },
   {
-    "modId": "renaissance_core",
-    "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Not recommended, it is specifically made for a modpack and will change major Thaumcraft features (such as tainted mobs) without having the ability to disable them."
-  },
-  {
-    "modId": "rpgloot",
-    "status": "DEPRECATED",
-    "version": "1.0",
-    "isMinVersion": true,
-    "isMaxVersion": false,
+    "modId": "reccomplex",
+    "version": "1.4.8.6",
+    "isMinVersion": false,
+    "isMaxVersion": true,
     "isVersionExclusive": true,
-    "replacementModName": "RPGLoot Patched",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[RPGLoot Patched](https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched)."
+    "status": "PROBLEMATIC",
+    "replacementModVersion": "1.8.0",
+    "action": "DOWNGRADE",
+    "message": "AI continuation, highly not recommended for use. Use #link:[Recurrent Complex 1.4.8.6](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex/files/5615733) instead."
   },
   {
     "modId": "redirectionor",
@@ -2355,6 +2348,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy",
     "action": "REPLACE",
     "message": "No longer being developed, it is recommended to instead use #link:[Balkon's WeaponMod: Legacy](https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy) and #link:[Balkon's Expansion](https://www.curseforge.com/minecraft/mc-mods/balkons-expansion). If you prefer Reforged, you can stick with it."
+  },
+  {
+    "modId": "renaissance_core",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Not recommended, it is specifically made for a modpack and will change major Thaumcraft features (such as tainted mobs) without having the ability to disable them."
   },
   {
     "modId": "replant",
@@ -2374,6 +2373,18 @@
     "replacementModVersion": "1.8.0",
     "action": "DOWNGRADE",
     "message": "Fnar's Edition is known to be worse in performance and includes unnecessary changes to some of the original content. Use #link:[Roguelike Dungeons 1.8.0](https://www.curseforge.com/minecraft/mc-mods/roguelike-dungeons/files/2492586) instead."
+  },
+  {
+    "modId": "rpgloot",
+    "status": "DEPRECATED",
+    "version": "1.0",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "replacementModName": "RPGLoot Patched",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[RPGLoot Patched](https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched)."
   },
   {
     "modId": "rusticthaumaturgy",
@@ -2991,6 +3002,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "utilitymobs",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
   },
   {
     "modId": "vanillafix",
