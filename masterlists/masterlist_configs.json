@@ -1485,9 +1485,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The infinity enchantment tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `items` → `infinity`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "infinityworkswithallarrows"
+                    },
+                    {
+                        "modId": "allarrowsinfinityfix"
                     }
                 ]
             },
