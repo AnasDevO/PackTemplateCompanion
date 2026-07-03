@@ -802,6 +802,14 @@
     "message": "Recommended to use #link:[Painting Selection Gui](https://www.curseforge.com/minecraft/mc-mods/paintings/files/7156791) instead to much more easily select what painting you want when placing it."
   },
   {
+    "modId": "damageindicatorsmod",
+    "status": "PROBLEMATIC",
+    "replacementModName": "ToroHealth Damage Indicators",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators",
+    "action": "REPLACE",
+    "message": "Abandoned and has a ton of issues, like randomly causing a NPE crash. Highly recommended to switch to #link:[ToroHealth Damage Indicators](https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators) instead for far more stability."
+  },
+  {
     "modId": "damagetilt",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
