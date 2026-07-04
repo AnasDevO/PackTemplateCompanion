@@ -558,10 +558,10 @@
     "isMaxVersion": true,
     "isVersionExclusive": false,
     "status": "DEPRECATED",
-    "replacementModName": "MrCrayfish's Furniture Mod: Refurbished",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
+    "replacementModName": "MrCrayfish's Furniture Mod Rebuilt",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod-rebuilt",
     "action": "REPLACE",
-    "message": "Outdated. Use #link:[MrCrayfish's Furniture Mod: Refurbished](https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture).",
+    "message": "Outdated. Use #link:[MrCrayfish's Furniture Mod Rebuilt](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod-rebuilt).",
     "isCleanroom": true
   },
   {
