@@ -152,6 +152,14 @@
     "message": "Outdated. Use #link:[AE2 Unofficial Extended Life](https://www.curseforge.com/minecraft/mc-mods/ae2-extended-life)."
   },
   {
+    "modId": "aquaacrobaticsunofficial",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Aqua Acrobatics",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics",
+    "action": "REPLACE",
+    "message": "Has a different package name and mod id, which will mess up compatibility with all other mods that are trying to integrate with the original Aqua Acrobatics. Recommended to use #link:[Aqua Acrobatics](https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics) instead."
+  },
+  {
     "modId": "armorcurve",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
