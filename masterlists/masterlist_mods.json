@@ -1535,6 +1535,12 @@
     "message": "Has several dupe issues and can void all bag contents on servers. You can try #link:[Retro Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/retro-sophisticated-backpacks) as an alternative."
   },
   {
+    "modId": "isorropia",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Not recommended, it is unfinished and has several bugs. Breaking the Curative Vat during certain circumstances can produce a massive amount of flux on the area."
+  },
+  {
     "modId": "jecharacters",
     "action": "INCLUDE",
     "patchList": [
@@ -2825,6 +2831,12 @@
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "Notably unfinished, and contains lots of bugs and missing recipes."
+  },
+  {
+    "modId": "thaumicconcilium",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Not recommended, a good portion of content is buggy or unbalanced, may also have issues on servers."
   },
   {
     "modId": "thaumicfixes",
