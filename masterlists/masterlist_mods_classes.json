@@ -363,6 +363,18 @@
     "isCleanroom": true
   },
   {
+    "modId": "spartanweaponryarcana",
+    "status": "DEPRECATED",
+    "verification": "CLASSLOADED",
+    "className": "com.oblivioussp.spartanweaponryarcana.ModSpartanWeaponryArcana",
+    "versionHash": "",
+    "action": "REPLACE",
+    "replacementModName": "Spartan Weaponry Arcana Unofficial",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry-arcana-unofficial",
+    "replacementModVersion": "",
+    "message": "Outdated. Use #link:[Spartan Weaponry Arcana Unofficial](https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry-arcana-unofficial)."
+  },
+  {
     "modId": "surge",
     "status": "PROBLEMATIC",
     "verification": "CLASSLOADED",
