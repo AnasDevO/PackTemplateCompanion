@@ -2748,6 +2748,14 @@
     ]
   },
   {
+    "modId": "tcinventoryscan",
+    "status": "DEPRECATED",
+    "replacementModName": "ThaumicTweaker",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
+    "action": "REPLACE",
+    "message": "Merged and improved in #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker)."
+  },
+  {
     "modId": "techguns",
     "version": "2.0.2.0",
     "isMinVersion": false,
