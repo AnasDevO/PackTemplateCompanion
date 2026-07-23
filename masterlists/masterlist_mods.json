@@ -25,18 +25,6 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
-    "modId": "actuallyadditions",
-    "status": "DEPRECATED",
-    "version": "1.12.2-r152",
-    "isMinVersion": false,
-    "isMaxVersion": true,
-    "isVersionExclusive": false,
-    "replacementModName": "Actually Additions V2 Coffee Edition",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/actually-additions-v2-coffee-edition",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[Actually Additions V2 Coffee Edition](https://www.curseforge.com/minecraft/mc-mods/actually-additions-v2-coffee-edition)."
-  },
-  {
     "modId": "actuallybaubles",
     "status": "DEPRECATED",
     "replacementModName": "Possibly Baubles",
@@ -558,19 +546,6 @@
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "MCreator mod with numerous bugs in 1.12.2. Use an alternative biome mod."
-  },
-  {
-    "modId": "cfm",
-    "version": "6.3.0",
-    "isMinVersion": false,
-    "isMaxVersion": true,
-    "isVersionExclusive": false,
-    "status": "DEPRECATED",
-    "replacementModName": "MrCrayfish's Furniture Mod Rebuilt",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod-rebuilt",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[MrCrayfish's Furniture Mod Rebuilt](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod-rebuilt).",
-    "isCleanroom": true
   },
   {
     "modId": "chaospersists",
