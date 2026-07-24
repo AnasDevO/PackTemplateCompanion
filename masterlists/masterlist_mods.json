@@ -98,7 +98,7 @@
     "modId": "alexsmobs",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "allarrowsinfinityfix",
@@ -350,7 +350,7 @@
     "modId": "better_weather",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded port. Highly not recommended for use."
+    "message": "AI generated port. Highly not recommended for use."
   },
   {
     "modId": "bibliocraft",
@@ -455,7 +455,7 @@
     "replacementModName": "Hyxcate",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/hyxcate",
     "action": "REPLACE",
-    "message": "Performance issues and OptiFine lighting bugs. Use #link:[Hyxcate](https://www.curseforge.com/minecraft/mc-mods/hyxcate)."
+    "message": "Performance issues and OptiFine lighting bugs. Use #link:[Hyxcate](https://www.curseforge.com/minecraft/mc-mods/hyxcate) instead."
   },
   {
     "modId": "bottlefix",
@@ -539,7 +539,7 @@
     "modId": "chaospersists",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded port. Highly not recommended for use."
+    "message": "AI generated port. Highly not recommended for use."
   },
   {
     "modId": "chargefix",
@@ -615,7 +615,7 @@
     "modId": "citadel",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "classiccombat",
@@ -969,13 +969,13 @@
     "modId": "easymagic",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "efficiententities",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "An AI generated/Vibe coded implementation of #link:[FastEntityRender](https://github.com/Meldexun/FastEntityRender). Causes numerous render issues."
+    "message": "An AI generated implementation of #link:[FastEntityRender](https://github.com/Meldexun/FastEntityRender). Causes numerous render issues."
   },
   {
     "modId": "embers",
@@ -1109,7 +1109,7 @@
     "modId": "fallingleaves",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "farsight",
@@ -1496,8 +1496,10 @@
   {
     "modId": "inventoryprofilesnext",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "replacementModName": "Inventory Bogo Sorter",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/inventory-bogosorter",
+    "action": "REPLACE",
+    "message": "AI generated backport. Use [Inventory Bogo Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-bogosorter) instead."
   },
   {
     "modId": "inventoryspam",
@@ -1585,6 +1587,17 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/jei-utilities/download/6937116",
     "action": "UPGRADE",
     "message": "Outdated and may cause crashes."
+  },
+  {
+    "modId": "jeresources",
+    "status": "PROBLEMATIC",
+    "version": "0.9.3",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "replacementModVersion": "0.9.2",
+    "action": "DOWNGRADE",
+    "message": "Latest alpha version has #link:[issues with the villager tab](https://github.com/way2muchnoise/JustEnoughResources/issues/423). Use #link:[JER 0.9.2.60](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer/files/2728585) instead."
   },
   {
     "modId": "jeresources",
@@ -1922,7 +1935,7 @@
     "modId": "neonium",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Outdated Vintagium fork. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium) or (Cleanroom Only) #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
+    "message": "Broken and abandoned fork of Vintagium. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium), or #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
   },
   {
     "modId": "nether_api",
@@ -2043,6 +2056,14 @@
     "message": "Uses deprecated methods that can cause crashes in older modpacks. The mod id and package name are also different, which will not work with mods that originally integrated with Chibi (unless additional support has been added for the forks). Use #link:[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)."
   },
   {
+    "modId": "oculus",
+    "status": "PROBLEMATIC",
+    "replacementModName": "OptiFine",
+    "replacementModLink": "https://optifine.net/downloads",
+    "action": "REPLACE",
+    "message": "Broken and abandoned backport, other port attempts are AI generated backports and should not be used. Use #link:[OptiFine](https://optifine.net/downloads) and #link:[OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine) instead for shaders."
+  },
+  {
     "modId": "oldcombat",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -2114,7 +2135,7 @@
     "modId": "particular",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "patchouli",
@@ -2283,8 +2304,10 @@
   {
     "modId": "randommobtextures",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "AI generated/Vibe coded mod that can impact overall performance. Use OptiFine instead."
+    "replacementModName": "OptiFine",
+    "replacementModLink": "https://optifine.net/downloads",
+    "action": "REPLACE",
+    "message": "AI generated mod that can impact overall performance. Use #link:[OptiFine](https://optifine.net/downloads) and #link:[OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine) instead for randomized entity textures."
   },
   {
     "modId": "randompatches",
@@ -2356,9 +2379,9 @@
     "isMaxVersion": true,
     "isVersionExclusive": true,
     "status": "PROBLEMATIC",
-    "replacementModVersion": "1.8.0",
+    "replacementModVersion": "1.4.8.6",
     "action": "DOWNGRADE",
-    "message": "AI continuation, highly not recommended for use. Use #link:[Recurrent Complex 1.4.8.6](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex/files/5615733) instead."
+    "message": "AI generated continuation, highly not recommended for use. Use #link:[Recurrent Complex 1.4.8.6](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex/files/5615733) instead."
   },
   {
     "modId": "reciperemover",
@@ -2381,6 +2404,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy",
     "action": "REPLACE",
     "message": "No longer being developed, it is recommended to instead use #link:[Balkon's WeaponMod: Legacy](https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy) and #link:[Balkon's Expansion](https://www.curseforge.com/minecraft/mc-mods/balkons-expansion). If you prefer Reforged, you can stick with it."
+  },
+  {
+    "modId": "relictium",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Broken and abandoned fork of Vintagium. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium), or #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
   },
   {
     "modId": "renaissance_core",
@@ -2658,25 +2687,25 @@
     "modId": "suikecherry",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "suikefoxfriend",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "suikehappyghast",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "suikerawore",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "superhot",
@@ -3051,7 +3080,7 @@
     "modId": "travelerstitles",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "trm",
@@ -3114,7 +3143,7 @@
     "modId": "unlockablebauble",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded, it poorly and invasively injects Baubles capabilities into every armor item. Highly not recommended for use."
+    "message": "AI generated, it poorly and invasively injects Baubles capabilities into every armor item. Highly not recommended for use."
   },
   {
     "modId": "unridekeybind",
@@ -3128,7 +3157,7 @@
     "modId": "utilitymobs",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated port. Highly not recommended for use."
   },
   {
     "modId": "vanillafix",
@@ -3148,7 +3177,7 @@
     "modId": "vintagium",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Broken and abandoned performance mod. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium) or (Cleanroom Only) #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
+    "message": "Broken and abandoned backport, other forks should not be used. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium), or #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
   },
   {
     "modId": "vintagefix",
@@ -3167,7 +3196,7 @@
     "modId": "visuality",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "voidfog",
@@ -3188,6 +3217,12 @@
         "modDescription": "Fixes various bugs in VoxelMap."
       }
     ]
+  },
+  {
+    "modId": "vulkanmod_legacy",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated and has no performance gain. CRITICAL: WILL BREAK MODS THAT RELY ON OPENGL!"
   },
   {
     "modId": "warptheory",
@@ -3232,8 +3267,10 @@
   {
     "modId": "witcherywalls",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "AI generated/Vibe coded port. Highly not recommended for use."
+    "replacementModName": "Witchery: Resurrected",
+    "replacementModLink": "https://witchery.msrandom.net/home/downloads",
+    "action": "REPLACE",
+    "message": "AI generated port. Use [Witchery: Resurrected](https://witchery.msrandom.net/home/downloads) and [Witchery: Companion](https://www.curseforge.com/minecraft/mc-mods/witchery-companion) instead."
   },
   {
     "modId": "wizardry",
