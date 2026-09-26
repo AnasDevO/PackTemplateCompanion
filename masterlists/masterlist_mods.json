@@ -288,6 +288,12 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "betterchunkculling",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Worsens render distance and overall not recommended."
+  },
+  {
     "modId": "betterfoliage",
     "status": "PROBLEMATIC",
     "version": "2.4.2",
@@ -1112,6 +1118,14 @@
     "message": "Does almost nothing except move unloadChunk to tick; caches chunks indefinitely which might impact RAM usage."
   },
   {
+    "modId": "fastadvancements",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "fastbench",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1514,6 +1528,14 @@
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "Has several dupe issues and can void all bag contents on servers. You can try #link:[Retro Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/retro-sophisticated-backpacks) as an alternative."
+  },
+  {
+    "modId": "ironchestfix",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "isorropia",
@@ -2209,6 +2231,14 @@
     "message": "Outdated. Use #link:[Pillar Patched](https://www.curseforge.com/minecraft/mc-mods/pillar-patched)."
   },
   {
+    "modId": "placeonpath",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "portaldupebegone",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -2724,12 +2754,6 @@
         "modId": "conarm",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/antique-armory",
         "modDescription": "Unofficial continued maintenance of Construct's Armory for 1.12.2. Enter the world of armor."
-      },
-      {
-        "modName": "Tinker's Planner Antique",
-        "modId": "tinkersplannerantique",
-        "modLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-planner-antique",
-        "modDescription": "A Minecraft 1.12.2 port of Tinker's Planner for planning Tinkers' Construct tools and armor before crafting."
       }
     ]
   },
@@ -2970,10 +2994,8 @@
   {
     "modId": "tinkerscompendium",
     "status": "PROBLEMATIC",
-    "replacementModName": "Tinkers Tactical Toughness",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-tactical-toughness",
-    "action": "REPLACE",
-    "message": "Abandoned and not recommended, it is prone to crashing and has memory leaks. Use #link:[Tinkers Tactical Toughness](https://www.curseforge.com/minecraft/mc-mods/tinkers-tactical-toughness) for a far better alternative."
+    "action": "REMOVE",
+    "message": "Abandoned and not recommended, it is prone to crashing and has memory leaks."
   },
   {
     "modId": "tinkersjei",

@@ -1023,9 +1023,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Dirt to Path` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "dirt2path"
+                    },
+                    {
+                        "modId": "placeonpath"
                     }
                 ]
             },
@@ -1196,6 +1200,19 @@
                 "dependencies":[
                     {
                         "modId": "f5fix"
+                    }
+                ]
+            },
+            {
+                "name": "[01] Faster Advancement Trigger Checking",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#PERFORMANCE#ADVANCEMENT_TRIGGERS#utFasterAdvancementTriggersToggle",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"The advancement triggers tweaks are located in `Universal Tweaks - Tweaks.cfg` → `general` → `performance` → `advancement triggers`.",
+                "dependencies":[
+                    {
+                        "modId": "fastadvancements"
                     }
                 ]
             },
@@ -1520,6 +1537,19 @@
                 ]
             },
             {
+                "name": "Fix Chest Opening Animation Sync",
+                "field": "mod.acgaming.universaltweaks.config.UTConfigMods#IRON_CHESTS#utFixChestAnimationSync",
+                "type": "boolean",
+                "value": "false",
+                "shouldMatch":"true",
+                "message":"`Iron Chests` fixes are located in `Universal Tweaks - Mod Integration.cfg` → `general` → `ironchests`.",
+                "dependencies":[
+                    {
+                        "modId": "ironchestfix"
+                    }
+                ]
+            },
+            {
                 "name": "Prevent Keybinds from Overflowing Screen",
                 "field": "mod.acgaming.universaltweaks.config.UTConfigTweaks#MISC#utPreventKeybindingEntryOverflow",
                 "type": "boolean",
@@ -1828,9 +1858,13 @@
                 "value": "false",
                 "shouldMatch":"true",
                 "message":"The `Lenient Paths` tweak is located in `Universal Tweaks - Tweaks.cfg` → `general` → `blocks`.",
+                "dependencyMode": "OR",
                 "dependencies":[
                     {
                         "modId": "pathundergates"
+                    },
+                    {
+                        "modId": "placeonpath"
                     }
                 ]
             },

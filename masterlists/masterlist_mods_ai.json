@@ -165,6 +165,12 @@
     "message": "AI generated and has no performance gain. CRITICAL: WILL BREAK MODS THAT RELY ON OPENGL!"
   },
   {
+    "modId": "vulkanmodnext",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated and has no performance gain. CRITICAL: WILL BREAK MODS THAT RELY ON OPENGL!"
+  },
+  {
     "modId": "witcherywalls",
     "status": "PROBLEMATIC",
     "replacementModName": "Witchery: Resurrected",
