@@ -129,6 +129,12 @@
     "message": "AI generated backport. Highly not recommended for use."
   },
   {
+    "modId": "texturescaler",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated. Highly not recommended for use."
+  },
+  {
     "modId": "travelerstitles",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
