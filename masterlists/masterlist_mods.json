@@ -2867,8 +2867,8 @@
   {
     "modId": "thaumicforever",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Not recommended, some content is unfinished, it contains overlapping content with other addons, and it breaks some functionality with ThaumicTweaker and Thaumic Wonders Unofficial."
+    "action": "INFO",
+    "message": "Contains overlapping content with other addons. Replaces Thaumcraft's research table, making it incompatible with all research tweaks and features from other addons."
   },
   {
     "modId": "thaumicjei",
