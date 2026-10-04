@@ -76,6 +76,18 @@
     "patchList": []
   },
   {
+    "modId": "byg",
+    "status": "PROBLEMATIC",
+    "verification": "CLASSLOADED",
+    "className": "net.mcreator.byg.MCreatorBYG",
+    "versionHash": "",
+    "action": "REPLACE",
+    "replacementModName": "Oh The Biomes You'll Go: Legacy Edition",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-legacy-edition",
+    "replacementModVersion": "",
+    "message": "MCreator mod with numerous bugs in 1.12.2. Highly recommended to use #link:[Oh The Biomes You'll Go: Legacy Edition](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-legacy-edition) instead."
+  },
+  {
     "modId": "classicbar",
     "status": "DEPRECATED",
     "className": "",

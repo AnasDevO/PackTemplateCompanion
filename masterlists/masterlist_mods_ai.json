@@ -97,6 +97,14 @@
     "message": "AI generated continuation, highly not recommended for use. Use #link:[Recurrent Complex 1.4.8.7](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex/files/8562927) instead."
   },
   {
+    "modId": "shutuppacketzz",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Packet Fixer",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/packet-fixer",
+    "action": "REPLACE",
+    "message": "AI generated with very bad implementation. Use #link:[Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer) instead."
+  },
+  {
     "modId": "suikecherry",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
@@ -119,6 +127,12 @@
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "AI generated backport. Highly not recommended for use."
+  },
+  {
+    "modId": "texturescaler",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated. Highly not recommended for use."
   },
   {
     "modId": "travelerstitles",
@@ -152,6 +166,12 @@
   },
   {
     "modId": "vulkanmod_legacy",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated and has no performance gain. CRITICAL: WILL BREAK MODS THAT RELY ON OPENGL!"
+  },
+  {
+    "modId": "vulkanmodnext",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "AI generated and has no performance gain. CRITICAL: WILL BREAK MODS THAT RELY ON OPENGL!"

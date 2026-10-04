@@ -288,6 +288,12 @@
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
+    "modId": "betterchunkculling",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Worsens render distance and overall not recommended."
+  },
+  {
     "modId": "betterfoliage",
     "status": "PROBLEMATIC",
     "version": "2.4.2",
@@ -535,12 +541,6 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
-  },
-  {
-    "modId": "byg",
-    "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "MCreator mod with numerous bugs in 1.12.2. Use an alternative biome mod."
   },
   {
     "modId": "chargefix",
@@ -1112,6 +1112,14 @@
     "message": "Does almost nothing except move unloadChunk to tick; caches chunks indefinitely which might impact RAM usage."
   },
   {
+    "modId": "fastadvancements",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "fastbench",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1122,10 +1130,10 @@
   {
     "modId": "fastfurnace",
     "status": "DEPRECATED",
-    "replacementModName": "CensoredASM",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/lolasm",
+    "replacementModName": "Chibi",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/chibi",
     "action": "REPLACE",
-    "message": "Merged and rewritten in #link:[CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)."
+    "message": "Merged and rewritten in #link:[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)."
   },
   {
     "modId": "fastleafdecay",
@@ -1266,6 +1274,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/forgelin-continuous",
     "action": "REPLACE",
     "message": "Outdated. Use #link:[Forgelin-Continuous](https://www.curseforge.com/minecraft/mc-mods/forgelin-continuous)."
+  },
+  {
+    "modId": "furnaceoptimizer",
+    "status": "DEPRECATED",
+    "replacementModName": "Chibi",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/chibi",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)."
   },
   {
     "modId": "gadothaumy",
@@ -1506,6 +1522,14 @@
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "Has several dupe issues and can void all bag contents on servers. You can try #link:[Retro Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/retro-sophisticated-backpacks) as an alternative."
+  },
+  {
+    "modId": "ironchestfix",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "isorropia",
@@ -2201,6 +2225,14 @@
     "message": "Outdated. Use #link:[Pillar Patched](https://www.curseforge.com/minecraft/mc-mods/pillar-patched)."
   },
   {
+    "modId": "placeonpath",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
     "modId": "portaldupebegone",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -2484,6 +2516,12 @@
     "message": "Better implementation exists in #link:[Thaumic Wonders Unofficial](https://www.curseforge.com/minecraft/mc-mods/thaumic-wonders-unofficial)."
   },
   {
+    "modId": "sift_backport",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Empty jar that does nothing."
+  },
+  {
     "modId": "silentboss",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -2716,12 +2754,6 @@
         "modId": "conarm",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/antique-armory",
         "modDescription": "Unofficial continued maintenance of Construct's Armory for 1.12.2. Enter the world of armor."
-      },
-      {
-        "modName": "Tinker's Planner Antique",
-        "modId": "tinkersplannerantique",
-        "modLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-planner-antique",
-        "modDescription": "A Minecraft 1.12.2 port of Tinker's Planner for planning Tinkers' Construct tools and armor before crafting."
       }
     ]
   },
@@ -2835,8 +2867,8 @@
   {
     "modId": "thaumicforever",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Not recommended, some content is unfinished, it contains overlapping content with other addons, and it breaks some functionality with ThaumicTweaker and Thaumic Wonders Unofficial."
+    "action": "INFO",
+    "message": "Contains overlapping content with other addons. Replaces Thaumcraft's research table, making it incompatible with all research tweaks and features from other addons."
   },
   {
     "modId": "thaumicjei",
@@ -2962,10 +2994,8 @@
   {
     "modId": "tinkerscompendium",
     "status": "PROBLEMATIC",
-    "replacementModName": "Tinkers Tactical Toughness",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/tinkers-tactical-toughness",
-    "action": "REPLACE",
-    "message": "Abandoned and not recommended, it is prone to crashing and has memory leaks. Use #link:[Tinkers Tactical Toughness](https://www.curseforge.com/minecraft/mc-mods/tinkers-tactical-toughness) for a far better alternative."
+    "action": "REMOVE",
+    "message": "Abandoned and not recommended, it is prone to crashing and has memory leaks."
   },
   {
     "modId": "tinkersjei",
@@ -3114,8 +3144,10 @@
   {
     "modId": "vanillafix",
     "status": "DEPRECATED",
+    "replacementModName": "Chibi",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/chibi",
     "action": "REPLACE",
-    "message": "Merged and improved in #link:[CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm) and #link:[VintageFix](https://www.curseforge.com/minecraft/mc-mods/vintagefix)."
+    "message": "Merged and improved in #link:[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi) and #link:[VintageFix](https://www.curseforge.com/minecraft/mc-mods/vintagefix)."
   },
   {
     "modId": "villagermantlefix",
