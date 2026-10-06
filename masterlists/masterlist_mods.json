@@ -2516,12 +2516,6 @@
     "message": "Better implementation exists in #link:[Thaumic Wonders Unofficial](https://www.curseforge.com/minecraft/mc-mods/thaumic-wonders-unofficial)."
   },
   {
-    "modId": "sift_backport",
-    "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Empty jar that does nothing."
-  },
-  {
     "modId": "silentboss",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
