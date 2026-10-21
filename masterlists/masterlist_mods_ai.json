@@ -111,6 +111,12 @@
     "message": "AI generated backport. Highly not recommended for use."
   },
   {
+    "modId": "suikecherry",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated backport. Highly not recommended for use."
+  },
+  {
     "modId": "suikefoxfriend",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
