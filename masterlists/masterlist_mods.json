@@ -2388,7 +2388,7 @@
     "replacementModName": "Balkon's WeaponMod: Legacy",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy",
     "action": "INFO",
-    "message": "No longer being developed, it is instead recommended by the developers to instead use #link:[Balkon's WeaponMod: Legacy](https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy, you can also use #link:[Balkon's Expansion](https://www.curseforge.com/minecraft/mc-mods/balkons-expansion) for mod support. If you prefer Reforged, you can stick with it."
+    "message": "No longer being developed, it is instead recommended by the developers to use #link:[Balkon's WeaponMod: Legacy](https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy, you can also use #link:[Balkon's Expansion](https://www.curseforge.com/minecraft/mc-mods/balkons-expansion) for mod support. If you prefer Reforged, you can stick with it."
   },
   {
     "modId": "relictium",
