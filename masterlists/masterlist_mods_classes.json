@@ -45,11 +45,11 @@
     "verification": "CLASSLOADED",
     "className": "baubles.api.util.WrongSideException",
     "versionHash": "",
-    "action": "REPLACE",
+    "action": "INFO",
     "replacementModName": "Bubbles",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/bubbles-a-baubles-fork",
     "replacementModVersion": "",
-    "message": "Outdated Baubles fork with more issues than the original. Use #link:[Bubbles](https://www.curseforge.com/minecraft/mc-mods/bubbles-a-baubles-fork) for a more stable fork.",
+    "message": "You may optionally use #link:[Bubbles](https://www.curseforge.com/minecraft/mc-mods/bubbles-a-baubles-fork) to have custom baubles types, other forks serve a similar purpose. Otherwise it's highly recommended to just stick with Baubles as it is currently the most stable for modpacks.",
     "patchList": [],
     "isCleanroom": false
   },

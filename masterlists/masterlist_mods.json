@@ -1,11 +1,5 @@
 [
   {
-    "modId": "!!pigium",
-    "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Not a legitimate performance mod. It was made to bait users for a YouTube video."
-  },
-  {
     "modId": "academy",
     "version": "1.1.3",
     "isMinVersion": false,
@@ -819,7 +813,7 @@
     "status": "DEPRECATED",
     "replacementModName": "Valkyrien Skies",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies",
-    "action": "REPLACE",
+    "action": "INFO",
     "message": "Recommended to instead use #link:[Rifted Valkyrium](https://www.curseforge.com/minecraft/mc-mods/rifted-valkyrium) (Cleanroom exclusive), or #link:[Valkyrien Skies](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies) for physics-based vehicles. If you prefer DaVinci's Vessels, you can stick with it."
   },
   {
@@ -1106,12 +1100,6 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
-    "modId": "farsight",
-    "status": "PROBLEMATIC",
-    "action": "INFO",
-    "message": "Does almost nothing except move unloadChunk to tick; caches chunks indefinitely which might impact RAM usage."
-  },
-  {
     "modId": "fastadvancements",
     "status": "PROBLEMATIC",
     "replacementModName": "Universal Tweaks",
@@ -1293,16 +1281,8 @@
   },
   {
     "modId": "geckolib3",
-    "version": "3.0.30",
-    "isMinVersion": false,
-    "isMaxVersion": true,
-    "isVersionExclusive": false,
-    "status": "DEPRECATED",
-    "replacementModName": "SauriaLib",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/saurialib",
-    "action": "REPLACE",
-    "message": "Outdated and has several bugs. SauriaLib remains compatible with existing mods that depend on GeckoLib 3. Use #link:[SauriaLib](https://www.curseforge.com/minecraft/mc-mods/saurialib).",
-    "isCleanroom": true
+    "action": "INFO",
+    "message": "Does not work well with OptiFine shaders, some players also report issues with load time and performance."
   },
   {
     "modId": "getittogetherdrops",
@@ -1461,7 +1441,7 @@
     "replacementModName": "Cleanroom Relauncher",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher",
     "action": "REPLACE",
-    "message": "No longer needed because the original Cleanroom Relauncher now automatically sets up everything since 0.4.0. Use #link:[Cleanroom Relauncher](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher) or #link:[Cleanroom Relauncher Unofficial](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher-unofficial)."
+    "message": "No longer needed because the original Cleanroom Relauncher now automatically sets up everything since 0.4.0. Use #link:[Cleanroom Relauncher](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher)."
   },
   {
     "modId": "infwithmend",
@@ -1808,8 +1788,8 @@
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
-    "action": "REPLACE",
-    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+    "action": "INFO",
+    "message": "Similar features exist in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks). If you need to the config list from this mod, you can stick with it."
   },
   {
     "modId": "modtweaker",
@@ -2407,8 +2387,8 @@
     "status": "DEPRECATED",
     "replacementModName": "Balkon's WeaponMod: Legacy",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy",
-    "action": "REPLACE",
-    "message": "No longer being developed, it is recommended to instead use #link:[Balkon's WeaponMod: Legacy](https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy) and #link:[Balkon's Expansion](https://www.curseforge.com/minecraft/mc-mods/balkons-expansion). If you prefer Reforged, you can stick with it."
+    "action": "INFO",
+    "message": "No longer being developed, it is instead recommended by the developers to instead use #link:[Balkon's WeaponMod: Legacy](https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy, you can also use #link:[Balkon's Expansion](https://www.curseforge.com/minecraft/mc-mods/balkons-expansion) for mod support. If you prefer Reforged, you can stick with it."
   },
   {
     "modId": "relictium",
@@ -2716,8 +2696,8 @@
     "status": "PROBLEMATIC",
     "replacementModName": "Survival Tools",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/survival-tools",
-    "action": "REPLACE",
-    "message": "CRITICAL: Uses a library that has a known RCE exploit. Remove immediately and use #link:[Survival Tools](https://www.curseforge.com/minecraft/mc-mods/survival-tools)."
+    "action": "INFO",
+    "message": "Recommended to use #link:[Survival Tools](https://www.curseforge.com/minecraft/mc-mods/survival-tools) for less dependencies and more mod support. Overall you can stick with it if you prefer it."
   },
   {
     "modId": "tc6aspects4jei",
