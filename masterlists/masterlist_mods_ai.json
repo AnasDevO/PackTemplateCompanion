@@ -131,5 +131,181 @@
     "replacementModLink": "https://witchery.msrandom.net/home/downloads",
     "action": "REPLACE",
     "message": "AI generated port. Use [Witchery: Resurrected](https://witchery.msrandom.net/home/downloads) and [Witchery: Companion](https://www.curseforge.com/minecraft/mc-mods/witchery-companion) instead."
+  },
+  {
+    "modId": "celeritasextra",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "vaugely mentions AI usage for some of the prokects code, but it is yet unknown how much AI has been used"
+  },
+  {
+    "modId": "pulsar",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Alfheim Lighting engine",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/alfheim-lighting-engine",
+    "action": "REPLACE",
+    "message": "vaugely mentions AI usage for some of the prokects code, but it is yet unknown how much AI has been used"
+  },
+  {
+    "modId": "portium",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated Translation Layer. Highly not recommended for use"
+  },
+  {
+    "modId": "demonica",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "fully AI Slopped Port of Angelica. Highly not recommended for use"
+  },
+  {
+    "modId": "do_a_barrel_roll",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "fully AI generated backport. Highly not recommended for use."
+  },
+  {
+    "modId": "mtreplaycompat",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "fully AI generated patch mod. Highly not recommended for use."
+  },
+  {
+    "modId": "foveffectsbackport",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "fully AI generated backport. Highly not recommended for use."
+  },
+  {
+    "modId": "flexfovclrmport",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "fully AI generated backport. Highly not recommended for use."
+  },
+  {
+    "modId": "archaiclib",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated Translation Layer. Highly not recommended for use"
+  },
+  {
+    "modId": "entity_threader",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated. Highly not recommended for use."
+  },
+  {
+    "modId": "helpfulvillagers",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated. Highly not recommended for use."
+  },
+  {
+    "modId": "bitcrusher",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated. Highly not recommended for use."
+  },
+  {
+    "modId": "eternaljesus",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated. Highly not recommended for use."
+  },
+  {
+    "modId": "fluidic",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated. Highly not recommended for use."
+  },
+  {
+    "modId": "sbackpackslegacy",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Retro Sophisticated Backpacks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/retro-sophisticated-backpacks",
+    "action": "REPLACE",
+    "message": "AI generated Backport. Highly not recommended for use, use Retro Sophisticated Backpacks instead."
+  },
+  {
+    "modId": "villagerbackport",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Village Names",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/village-names",
+    "action": "REPLACE",
+    "message": "AI generated Backport. Highly not recommended for use. Instead use [Village names](https://www.curseforge.com/minecraft/mc-mods/village-names), [gambling style](https://www.curseforge.com/minecraft/mc-mods/gambling-style), [FutureMC](https://www.curseforge.com/minecraft/mc-mods/future-mc) and [Raid Backport](https://www.curseforge.com/minecraft/mc-mods/raids-backport) instead."
+  },
+  {
+    "modId": "sstoragelegacy",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Retro Sophisticated Backpacks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/retro-sophisticated-backpacks",
+    "action": "REPLACE",
+    "message": "AI generated Backport. Highly not recommended for use. Instead use [Retro Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/retro-sophisticated-backpacks), or alternatively if you just want chest upgrades use [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests), if you want drawers use  [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers-mc) instead."
+  },
+  {
+    "modId": "backportcore",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated Lib, used by AI generated mods. Highly not recommended for use."
+  },
+  {
+    "modId": "wildupdatebackport",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated mod. Highly not recommended for use."
+  },
+  {
+    "modId": "rlcraftvillagertomes",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated mod. Highly not recommended for use."
+  },
+  {
+    "modId": "cavesandcliffsbackport",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated mod. Highly not recommended for use."
+  },
+  {
+    "modId": "updateaquaticbackport",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Oceanic Expanse",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/oceanic-expanse",
+    "action": "REPLACE",
+    "message": "AI generated mod. Highly not recommended for use, use [Oceanic Expanse](https://www.curseforge.com/minecraft/mc-mods/oceanic-expanse) for content and [Aqua acrobatics](https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics) for the movement changes."
+  },
+  {
+    "modId": "netherupdatebackport",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Netherized Kedition",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/netherized-kedition",
+    "action": "REPLACE",
+    "message": "AI generated mod. Highly not recommended for use, use [Netherized Kedition](https://www.curseforge.com/minecraft/mc-mods/netherized-kedition) instead."
+  },
+  {
+    "modId": "buzzybeesbackport",
+    "status": "PROBLEMATIC",
+    "replacementModName": "FutureMC",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/future-mc",
+    "action": "REPLACE",
+    "message": "AI generated mod. Highly not recommended for use, use [FutureMC](https://www.curseforge.com/minecraft/mc-mods/future-mc) instead."
+  },
+  {
+    "modId": "rlcraftvillagertomes",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated mod. Highly not recommended for use."
+  },
+  {
+    "modId": "rlcraftdeathoverhaul",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated mod. Highly not recommended for use."
+  },
+  {
+    "modId": "rlcraftenchantrecipes",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated mod. Highly not recommended for use."
   }
 ]
